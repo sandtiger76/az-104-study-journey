@@ -1,16 +1,22 @@
 # Project 2: Azure Networking and Storage
 
 
-In this project, we'll look at Azure with secure networking and storage spells.
-We'll try to keep it fun by using a Harry Potter theme for the names, we will build:
+Welcome back to your **AZ-104 Study Journey**!
+In this project, we'll implement secure Azure networking and storage fundamentals.
+For a bit of fun, we will use names from Harry Potter.
 
-- A **Virtual Network (VNet)** to isolate your magical creatures (resources)
-- **Network Security Groups (NSGs)** as protective charms against dark forces (unauthorized access)
-- A **Storage Account** as your enchanted vault for potions and artifacts
-- All encrypted with unbreakable curses
-- Automated with **ARM Templates** – like scripting your own *Patronus Charm* for repeatable magic
+**Topics Covered:**
+- Virtual Networks
+- NSGs
+- Storage Accounts
+- Encryption
+- Protocols
+- ARM Templates
 
----
+**Time Estimate:** ~0.75 hours
+
+**Scenario:**
+A company needs to deploy a secure storage account, ensure network isolation for its resources, enforce data encryption, and automate deployment using ARM templates. This demonstrates core Azure networking and storage best practices.
 
 **Topics Covered:**
 Virtual Networks, NSGs, Storage Accounts, Encryption, Protocols, ARM Templates
