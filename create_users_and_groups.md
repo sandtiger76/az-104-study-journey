@@ -198,10 +198,10 @@ Automated Scripts to streamline the proces.\
 When using the scripts, remember to update the domain name (if needed).
 
 
-- [`delete-azure-cli-users.sh`](https://github.com/sandtiger76/az-104-study-journey/blob/main/Identity_and_Governance/scripts/delete-azure-cli-users.sh) - Delete Azure Users
-- [`create-azure-cli-users.sh`](https://github.com/sandtiger76/az-104-study-journey/blob/main/Identity_and_Governance/scripts/create-azure-cli-users.sh) - Create Azure Users
-- [`delete-azure-cli-groups.sh`](https://github.com/sandtiger76/az-104-study-journey/blob/main/Identity_and_Governance/scripts/delete-azure-cli-groups.sh) - Delete Azure Groups
-- [`create-azure-cli-groups.sh`](https://github.com/sandtiger76/az-104-study-journey/blob/main/Identity_and_Governance/scripts/create-azure-cli-groups.sh) - Create Azure Groups
+- [`delete-azure-cli-users.sh`](https://github.com/sandtiger76/az-104-study-journey/tree/master/scripts/delete-azure-cli-users.sh) - Delete Azure Users
+- [`create-azure-cli-users.sh`](https://github.com/sandtiger76/az-104-study-journey/tree/master/scripts/create-azure-cli-users.sh) - Create Azure Users
+- [`delete-azure-cli-groups.sh`](https://github.com/sandtiger76/az-104-study-journey/tree/master/scripts/delete-azure-cli-groups.sh) - Delete Azure Groups
+- [`create-azure-cli-groups.sh`](https://github.com/sandtiger76/az-104-study-journey/tree/master/scripts/create-azure-cli-groups.sh) - Create Azure Groups
 
 
 
