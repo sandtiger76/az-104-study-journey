@@ -67,5 +67,6 @@ This project focuses on deploying a web application using Azure App Service, uti
 ## Feedback & Contributions
 
 This is a personal learning project created while preparing for the AZ-104: Microsoft Azure Administrator certification. It documents hands-on implementations and serves as a reference for myself and others on the same journey. Feel free to fork, reference, or build upon it!
-Some project ideas and inspiration were drawn from this helpful [Video](https://youtu.be/yRjcazpYEH4) on YouTube.
+Some project ideas and inspiration were drawn from this helpful video:
+https://youtu.be/yRjcazpYEH4
 
