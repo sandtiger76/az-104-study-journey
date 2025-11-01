@@ -161,9 +161,15 @@ az ad group create \
   --mail-nickname "OrderOfPhoenix"
 ```
 
-### 🛡️ Assign Role to Group
+### 🧙 Step 2.3: Assign Key Vault Role to Group
+🔧 Portal Instructions:
 
-cli command:
+Go to vault-of-secrets > Access Control (IAM) > Add Role Assignment.
+Role: Key Vault Administrator
+Assign to: OrderOfPhoenix
+Click Review + Assign
+
+CLI alternative:
 ```bash
 az role assignment create \
   --assignee <group-object-id> \
@@ -171,9 +177,8 @@ az role assignment create \
   --scope "/subscriptions/<subscription-id>/resourceGroups/rg-hogwarts/providers/Microsoft.KeyVault/vaults/vault-of-secrets"
 ```
 
-### 🔐 Upload SSH Key to Key Vault
-
-cli command:
+### 🧙 Step 2.4: Upload SSH Key to Key Vault
+Assuming you have a .pem or .pub file, here’s the CLI command:
 ```bash
 az keyvault secret set \
   --vault-name vault-of-secrets \
@@ -181,9 +186,16 @@ az keyvault secret set \
   --value "$(cat ~/.ssh/id_rsa.pub)"
 ```
 
-### 🧙 Assign VM Role to Group
+### 🧙 Step 2.5: Assign VM Role to Group
+🔧 Portal Instructions:
 
-cli command:
+Go to hogwarts-web-vm > Access Control (IAM) > Add Role Assignment
+Role: Virtual Machine Contributor
+Assign to: OrderOfPhoenix
+Click Review + Assign
+
+CLI alternative:
+
 ```bash
 az role assignment create \
   --assignee <group-object-id> \
