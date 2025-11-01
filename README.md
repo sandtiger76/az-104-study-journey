@@ -26,6 +26,7 @@ The goal of this repository is to:
 
 ### 🌐 Networking & Storage
 - Project_2_Networking_and_Storage.md: Creating VNets, NSGs, and storage accounts
+
 ### 📊 Monitoring & Recovery
 - Project_3_Monitoring_Backup_Recovery.md: Implementing Azure Monitor, backup policies, and recovery vaults
 
