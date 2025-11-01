@@ -1,4 +1,4 @@
-## Step 1: User & Group Creation
+# User & Group Creation
 
 ---
 ## Table of Contents
