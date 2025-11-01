@@ -59,8 +59,8 @@ This project focuses on deploying a web application using Azure App Service, uti
 
 ## Assets & Scripts
 
-- Screenshots and diagrams are stored in the `[assets/]` folder, organized by topic.
-- CLI scripts used in each project are stored in the `[scripts]/` folder for automation and reuse.
+- Screenshots are stored in the [Screenshots](https://github.com/sandtiger76/az-104-study-journey/tree/master/assets/screenshots) folder.
+- Scripts used in each project are stored in the [Scripts](https://github.com/sandtiger76/az-104-study-journey/tree/master/scripts) folder for automation and reuse.
 
 ---
 
