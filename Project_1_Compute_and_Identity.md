@@ -99,60 +99,6 @@ After validation, click **Create** to deploy the VM.
 
 If using SSH authentication, download the private key securely and store it (e.g., in Azure Key Vault).
 
----
-## Optional - SSH Key Management
-
-### SSH Key File
-
-*   **Filename:** `<key-file-name>.pem`
-*   **Location:** `<path-to-key-file>`
-
-### Upload SSH Key to Azure Key Vault
-
-#### Key Vault Details
-
-*   **Name:** `<key-vault-name>`
-*   **Location:** `<region>`
-*   **Resource Group:** `<resource-group-name>`
-
-#### CLI Command to Upload Key
-
-```bash
-az keyvault secret set
-  --vault-name <key-vault-name>
-  --name <secret-name>
-  --value "$(cat <path-to-key-file>)"
-```
-
-### Role Assignment for Access
-
-#### Steps to Assign Role
-
-1.  Get the current signed-in user:
-    ```bash
-    az account show --query user.name
-    ```
-
-2.  Get the user's object ID:
-    ```bash
-    az ad signed-in-user show --query objectId
-    ```
-
-3.  Assign the **Key Vault Secrets Officer** role:
-    ```bash
-    az role assignment create
-      --assignee <object-id>
-      --role "Key Vault Secrets Officer"
-      --scope "/subscriptions/<subscription-id>/resourceGroups/<resource-group-name>/providers/Microsoft.KeyVault/vaults/<key-vault-name>"
-    ```
-
-4.  Upload the SSH key as a secret:
-    ```bash
-    az keyvault secret set
-      --vault-name <key-vault-name>
-      --name <secret-name>
-      --value "$(cat <path-to-key-file>)"
-    ```
 
 ***
 
@@ -172,8 +118,20 @@ az vm create
 
 ## 🛡️ Step 2: Identity and Access Management
 
-### 🔐 Create Key Vault
+### 🧙 Step 2.1: Create the Key Vault
+🔧 Portal Instructions:
 
+Go to Azure Portal > Key Vaults > Create.
+Use the following settings:
+
+Name: vault-of-secrets
+Resource Group: rg-hogwarts
+Region: Same as your VM (eastus)
+
+
+Click Review + Create, then Create.
+
+cli command:
 ```bash
 az keyvault create \
   --name vault-of-secrets \
@@ -181,8 +139,22 @@ az keyvault create \
   --location eastus
 ```
 
-### 🧙 Create Entra ID Group
+### 🧙 Step 2.2: Create an Entra ID Group
+🔧 Portal Instructions:
 
+Go to Microsoft Entra ID > Groups > New Group.
+Use the following settings:
+
+Group Type: Security
+Group Name: OrderOfPhoenix
+Description: "Admins of Hogwarts resources"
+Membership Type: Assigned
+Members: Add yourself
+
+
+Click Create.
+
+CLI alternative:
 ```bash
 az ad group create \
   --display-name "OrderOfPhoenix" \
@@ -191,6 +163,7 @@ az ad group create \
 
 ### 🛡️ Assign Role to Group
 
+cli command:
 ```bash
 az role assignment create \
   --assignee <group-object-id> \
@@ -200,6 +173,7 @@ az role assignment create \
 
 ### 🔐 Upload SSH Key to Key Vault
 
+cli command:
 ```bash
 az keyvault secret set \
   --vault-name vault-of-secrets \
@@ -209,6 +183,7 @@ az keyvault secret set \
 
 ### 🧙 Assign VM Role to Group
 
+cli command:
 ```bash
 az role assignment create \
   --assignee <group-object-id> \
@@ -326,7 +301,7 @@ az consumption budget create \
   --start-date 2025-11-01 \
   --end-date 2026-11-01 \
   --notifications \
-    '{"Actual_GreaterThan_50": {"enabled": true, "operator": "GreaterThan", "threshold": 50, "contactEmails": ["qcb-az@outlook.com"]}}'
+    '{"Actual_GreaterThan_50": {"enabled": true, "operator": "GreaterThan", "threshold": 50, "contactEmails": ["youremail@domain"]}}'
 ```
 
 2. View Cost Analysis
