@@ -259,3 +259,48 @@ az ad group show --group "OrderOfPhoenix" --query objectId --output tsv
 ```
 
 ***
+
+✅ Step 3: SSH into the VM
+This step verifies secure access to the VM using SSH and confirms NSG rules.
+
+🔧 CLI Commands
+
+1. Get VM Public IP
+```bash
+az vm list-ip-addresses \
+  --name hogwarts-web-vm \
+  --resource-group rg-hogwarts \
+  --query "[].virtualMachine.network.publicIpAddresses[].ipAddress" \
+  --output tsv
+```
+2. SSH into the VM
+```bash
+ssh -i ~/.ssh/id_rsa hogwarts-web-vm-admin@<VM_PUBLIC_IP>
+```
+Replace <VM_PUBLIC_IP> with the IP from the previous command.
+
+3. Test NSG Rules
+Try accessing the IP in a browser:
+```bash
+http://<VM_PUBLIC_IP>
+```
+
+✅ Step 4: Apply Azure Policy
+This step enforces governance using Azure Policy initiatives.
+
+🔧 CLI Commands
+1. Create Policy Initiative
+```bash
+az policy set-definition \
+  --name hogwarts-policy-initiative \
+  --display-name "Hogwarts Policy Initiative" \
+  --description "Enforce tag inheritance and allowed resource types" \
+  --definition-group-name "hogwarts-group" \
+  --definitions '[{"policyDefinitionId":"/providers/Microsoft.Authorization/policyDefinitions/your-policy-id"}]' \
+  --params '{ "allowedResourceTypes": { "value": ["Microsoft.Compute/virtualMachines"] } }'
+```
+
+Note: Replace your-policy-id with actual policy definition IDs.
+
+
+
