@@ -72,7 +72,7 @@ To create a User in Azure Portal:
 2. Fill in the required details such as name, username, and password.
 3. Click **Create**.
 
-![User Creation - Harry Potter](https://github.com/sandtiger76/az-104-study-journey/blob/main/Identity_and_Governance/assets/screenshots/user_creation_harry_potter.png)
+![User Creation - Harry Potter](https://github.com/sandtiger76/az-104-study-journey/tree/master/scripts/user_creation_harry_potter.png)
 
 ## Create a Group
 
@@ -82,7 +82,7 @@ To create a Group in Azure Portal:
 2. Choose the group type, name it (e.g., Gryffindor Students), and assign members.
 3. Click **Create**.
 
-![Group Creation - Harry Potter](https://github.com/sandtiger76/az-104-study-journey/blob/main/Identity_and_Governance/assets/screenshots/group_creation_gryffindor_students.png)
+![Group Creation - Harry Potter](https://github.com/sandtiger76/az-104-study-journey/tree/master/scripts/group_creation_gryffindor_students.png)
 
 ✅ Why Azure Portal?
 
