@@ -1,7 +1,9 @@
-# Project 2: Azure Networking and Storage – The Forbidden Forest Fortress
+# Project 2: Azure Networking and Storage
 
-Welcome back to your **AZ-104 Study Journey**, wizard-in-training!
-In this magical project, we'll fortify our Azure realm with secure networking and storage spells. Imagine you're building a hidden fortress in the **Forbidden Forest**:
+
+In this project, we'll look at Azure with secure networking and storage spells.
+We'll try to keep it fun by using a Harry Potter theme for the names, we will build:
+
 - A **Virtual Network (VNet)** to isolate your magical creatures (resources)
 - **Network Security Groups (NSGs)** as protective charms against dark forces (unauthorized access)
 - A **Storage Account** as your enchanted vault for potions and artifacts
