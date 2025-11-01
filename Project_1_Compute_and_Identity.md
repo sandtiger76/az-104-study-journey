@@ -265,7 +265,7 @@ This step verifies secure access to the VM using SSH and confirms NSG rules.
 
 🔧 CLI Commands
 
-1. Get VM Public IP
+3.1 Get VM Public IP
 ```bash
 az vm list-ip-addresses \
   --name hogwarts-web-vm \
@@ -273,13 +273,13 @@ az vm list-ip-addresses \
   --query "[].virtualMachine.network.publicIpAddresses[].ipAddress" \
   --output tsv
 ```
-2. SSH into the VM
+3.2 SSH into the VM
 ```bash
 ssh -i ~/.ssh/id_rsa hogwarts-web-vm-admin@<VM_PUBLIC_IP>
 ```
 Replace <VM_PUBLIC_IP> with the IP from the previous command.
 
-3. Test NSG Rules
+3.3 Test NSG Rules
 Try accessing the IP in a browser:
 ```bash
 http://<VM_PUBLIC_IP>
@@ -289,7 +289,7 @@ http://<VM_PUBLIC_IP>
 This step enforces governance using Azure Policy initiatives.
 
 🔧 CLI Commands
-1. Create Policy Initiative
+4.1 Create Policy Initiative
 ```bash
 az policy set-definition \
   --name hogwarts-policy-initiative \
@@ -302,5 +302,38 @@ az policy set-definition \
 
 Note: Replace your-policy-id with actual policy definition IDs.
 
+4.2 Assign Initiative to Subscription
+```bash
+az policy set-definition \
+az policy assignment create \
+  --name hogwarts-policy-assignment \
+  --display-name "Hogwarts Policy Assignment" \
+  --scope "/subscriptions/<your-subscription-id>" \
+  --policy-set-definition hogwarts-policy-initiative
+```
 
+✅ Step 5: Monitor and Manage Costs
+
+🔧 CLI Commands
+
+5.1 Create Budget
+```bash
+az consumption budget create \
+  --amount 50 \
+  --category cost \
+  --name hogwarts-budget \
+  --time-grain monthly \
+  --start-date 2025-11-01 \
+  --end-date 2026-11-01 \
+  --notifications \
+    '{"Actual_GreaterThan_50": {"enabled": true, "operator": "GreaterThan", "threshold": 50, "contactEmails": ["qcb-az@outlook.com"]}}'
+```
+
+2. View Cost Analysis
+```bash
+az costmanagement query \
+  --type ActualCost \
+  --timeframe MonthToDate \
+  --dataset '{"granularity":"Daily"}'
+```
 
