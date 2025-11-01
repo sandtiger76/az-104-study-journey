@@ -18,12 +18,15 @@ The goal of this repository is to:
 
 ## 📂 Project Index
 
+
+
+### 🔒 Secure Access
+Setting up Azure Bastion for secure VM access without public IPs
+[Secure Access](https://github.com/sandtiger76/az-104-study-journey/blob/master/Azure-Bastion.md)
+
 ### 🔐 Identity & Access
 - step1-user-group-creation.md: Creating users and groups via Azure Portal
 - Project_1_Compute_and_Identity.md: Deploying VMs and managing identity with role assignments
-
-### 🔒 Secure Access
-- [Azure-Baston.md: Setting up Azure Bastion for secure VM access without public IPs
 
 ### 🌐 Networking & Storage
 - Project_2_Networking_and_Storage.md: Creating VNets, NSGs, and storage accounts
