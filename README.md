@@ -10,6 +10,7 @@ This repo serves as a practical journal of the hands-on tasks I completed while 
 
 The goal of this repository is to:
 - Document real-world Azure tasks performed during AZ-104 preparation
+- Help others who are studying for the AZ-104 certification by providing practical, real-world examples and documentation.
 - Serve as a reference for future Azure projects
 - Showcase practical skills in identity, compute, networking, monitoring, and app deployment
 
