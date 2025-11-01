@@ -21,8 +21,11 @@ The goal of this repository is to:
 
 
 ### 🔒 Secure Access
-Setting up Azure Bastion for secure VM access without public IPs
-[Secure Access](https://github.com/sandtiger76/az-104-study-journey/blob/master/Azure-Bastion.md)
+This guide walks through the setup of Azure Bastion, a fully managed Platform-as-a-Service (PaaS) offering that enables secure and seamless RDP and SSH connectivity to your Azure virtual machines.
+Azure Bastion allows you to connect to VMs using their private IP addresses, eliminating the need to expose them to the public internet. Connections are made securely over TLS directly from the Azure portal or via your local machine's native RDP/SSH client — no public IP, agent, or special software required.
+By provisioning Azure Bastion within a virtual network, you gain secure access to all VMs in that network without opening inbound ports like 3389 or 22. This significantly reduces your attack surface while maintaining full administrative access.
+
+[Secure Access Guide](https://github.com/sandtiger76/az-104-study-journey/blob/master/Azure-Bastion.md)
 
 ### 🔐 Identity & Access
 - step1-user-group-creation.md: Creating users and groups via Azure Portal
