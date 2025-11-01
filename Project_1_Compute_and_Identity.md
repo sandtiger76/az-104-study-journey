@@ -169,3 +169,93 @@ az vm create
   --tags owner=harry.potter house=gryffindor environment=dev project=az104-study theme=harrypotter
 ```
 ***
+
+## 🛡️ Step 2: Identity and Access Management
+
+### 🔐 Create Key Vault
+
+```bash
+az keyvault create \
+  --name vault-of-secrets \
+  --resource-group rg-hogwarts \
+  --location eastus
+```
+
+### 🧙 Create Entra ID Group
+
+```bash
+az ad group create \
+  --display-name "OrderOfPhoenix" \
+  --mail-nickname "OrderOfPhoenix"
+```
+
+### 🛡️ Assign Role to Group
+
+```bash
+az role assignment create \
+  --assignee <group-object-id> \
+  --role "Key Vault Administrator" \
+  --scope "/subscriptions/<subscription-id>/resourceGroups/rg-hogwarts/providers/Microsoft.KeyVault/vaults/vault-of-secrets"
+```
+
+### 🔐 Upload SSH Key to Key Vault
+
+```bash
+az keyvault secret set \
+  --vault-name vault-of-secrets \
+  --name hogwarts-ssh-key \
+  --value "$(cat ~/.ssh/id_rsa.pub)"
+```
+
+### 🧙 Assign VM Role to Group
+
+```bash
+az role assignment create \
+  --assignee <group-object-id> \
+  --role "Virtual Machine Contributor" \
+  --scope "/subscriptions/<subscription-id>/resourceGroups/rg-hogwarts/providers/Microsoft.Compute/virtualMachines/hogwarts-web-vm"
+```
+
+***
+
+## 🧪 Step 3: SSH Access to VM
+
+If public IP is assigned:
+
+```bash
+az vm list-ip-addresses \
+  --name hogwarts-web-vm \
+  --resource-group rg-hogwarts \
+  --query "[].virtualMachine.network.publicIpAddresses[].ipAddress" \
+  --output tsv
+```
+
+Then connect:
+
+```bash
+ssh -i ~/.ssh/id_rsa hogwarts-web-vm-admin@<VM_PUBLIC_IP>
+```
+
+***
+
+## 📎 Appendix: Retrieving Subscription ID and Object ID
+
+### 🔍 Get Subscription ID
+
+```bash
+az account show --query id --output tsv
+```
+
+### 🔍 Get Your Object ID
+
+```bash
+az ad signed-in-user show --query objectId --output tsv
+```
+
+### 🔍 Get Group Object ID
+
+```bash
+az ad group show --group "OrderOfPhoenix" --query objectId --output tsv
+```
+
+***
