@@ -110,10 +110,11 @@ Create users and groups in Microsoft Entra ID using Azure CLI. This step demonst
 ✅ Step 1: Create Groups
 Use the following commands to create groups representing Hogwarts houses and staff:
 ```
+az ad group create --display-name "Gryffindor Students" --mail-nickname "gryffindorstudents"
 az ad group create --display-name "Slytherin Students" --mail-nickname "slytherinstudents"
 az ad group create --display-name "Ravenclaw Students" --mail-nickname "ravenclawstudents"
 az ad group create --display-name "Hufflepuff Students" --mail-nickname "hufflepuffstudents"
-az ad group create --display-name "Hogwarts Staff" --mail-nickname "hogwartsstaff"Show more lines
+az ad group create --display-name "Hogwarts Staff" --mail-nickname "hogwartsstaff"
 ```
 
 ✅ Step 2: Create Users
