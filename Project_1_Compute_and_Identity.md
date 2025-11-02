@@ -324,4 +324,36 @@ az consumption usage list \
   --query "[].{Date:usageStart, Service:consumedService, ResourceGroup:resourceGroup, Resource:instanceName, Cost:pretaxCost}" \
   --output table
 ```
+## ✅ To Check Status of All Resources
+You can run these commands:
+List All Resources in the Resource Group
+```bash
+resource list --resource-group RG-HOGWARTS --output tableShow more lines
+```
+List All VMs and Their Status
+```bash
+vm list --resource-group RG-HOGWARTS --show-details --output tableShow more lines
+```
+List All Disks
+```bash
+disk list --resource-group RG-HOGWARTS --output tableShow more lines
+```
+List All Public IPs
+```bash
+network public-ip list --resource-group RG-HOGWARTS --output tableShow more lines
+```
+List All Key Vaults
+```bash
+keyvault list --resource-group RG-HOGWARTS --output tableShow more lines
+```
+## 🧹 To Delete All Resources and Save Costs
+If you're ready to clean up everything:
+Option 1: Delete the Entire Resource Group
+This is the fastest and cleanest way:
+```bash
+group delete --name RG-HOGWARTS --yes --no-waitShow more lines
+```
+⚠️ This will delete all resources in that group permanently.
+
+
 
