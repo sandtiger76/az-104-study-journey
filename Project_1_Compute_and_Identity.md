@@ -328,30 +328,30 @@ az consumption usage list \
 You can run these commands:
 List All Resources in the Resource Group
 ```bash
-resource list --resource-group RG-HOGWARTS --output tableShow more lines
+az resource list --resource-group RG-HOGWARTS --output table
 ```
 List All VMs and Their Status
 ```bash
-vm list --resource-group RG-HOGWARTS --show-details --output tableShow more lines
+az vm list --resource-group RG-HOGWARTS --show-details --output table
 ```
 List All Disks
 ```bash
-disk list --resource-group RG-HOGWARTS --output tableShow more lines
+az disk list --resource-group RG-HOGWARTS --output table
 ```
 List All Public IPs
 ```bash
-network public-ip list --resource-group RG-HOGWARTS --output tableShow more lines
+az network public-ip list --resource-group RG-HOGWARTS --output table
 ```
 List All Key Vaults
 ```bash
-keyvault list --resource-group RG-HOGWARTS --output tableShow more lines
+az keyvault list --resource-group RG-HOGWARTS --output table
 ```
 ## 🧹 To Delete All Resources and Save Costs
 If you're ready to clean up everything:
 Option 1: Delete the Entire Resource Group
 This is the fastest and cleanest way:
 ```bash
-group delete --name RG-HOGWARTS --yes --no-waitShow more lines
+az group delete --name RG-HOGWARTS --yes --no-wait
 ```
 ⚠️ This will delete all resources in that group permanently.
 
