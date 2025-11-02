@@ -316,11 +316,12 @@ az consumption budget create \
     '{"Actual_GreaterThan_50": {"enabled": true, "operator": "GreaterThan", "threshold": 50, "contactEmails": ["youremail@domain"]}}'
 ```
 
-2. View Cost Analysis
+2. This command retrieves Azure usage details for the past 7 days and displays them in a table format.
 ```bash
-az costmanagement query \
-  --type ActualCost \
-  --timeframe MonthToDate \
-  --dataset '{"granularity":"Daily"}'
+az consumption usage list \
+  --start-date $(date -d "-7 days" +%Y-%m-%d) \
+  --end-date $(date -d "-1 days" +%Y-%m-%d) \
+  --query "[].{Date:usageStart, Service:consumedService, ResourceGroup:resourceGroup, Resource:instanceName, Cost:pretaxCost}" \
+  --output table
 ```
 
