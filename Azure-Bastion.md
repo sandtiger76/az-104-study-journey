@@ -99,7 +99,7 @@ Expected output:
 
 ### To delete Bastion after use:
 
-```json
+```bash
 az network bastion delete --name $BASTION_NAME --resource-group $RG
 az network public-ip delete --name $PUBLIC_IP_NAME --resource-group $RG
 ```
