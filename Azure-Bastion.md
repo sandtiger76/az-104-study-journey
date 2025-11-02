@@ -51,9 +51,9 @@ az network public-ip create \
 
 ***
 
-### 3. Created Bastion Host
+### 3. Create Bastion Host (Basic SKU)
 
-Finally, we deployed the Bastion host in the same VNet.
+Deploy Bastion in the same VNet, specifying Basic SKU:
 
 ```bash
 az network bastion create \
@@ -61,7 +61,8 @@ az network bastion create \
   --resource-group $RG \
   --location $LOCATION \
   --vnet-name $VNET_NAME \
-  --public-ip-address $PUBLIC_IP_NAME
+  --public-ip-address $PUBLIC_IP_NAME \
+  --sku Basic
 ```
 
 ***
@@ -95,6 +96,58 @@ Expected output:
 *   Click **Connect** — and you’re inside Hogwarts VM securely!
 
 ***
+
+### To delete Bastion after use:
+
+```json
+az network bastion delete --name $BASTION_NAME --resource-group $RG
+az network public-ip delete --name $PUBLIC_IP_NAME --resource-group $RG
+```
+
+### ✅ **Full CLI Script (Create & Delete Bastion)**
+
+```bash
+#!/bin/bash
+
+# Variables
+RG="rg-hogwarts"
+LOCATION="eastus"
+BASTION_NAME="hogwarts-bastion"
+VNET_NAME="vnet-eastus"
+SUBNET_NAME="AzureBastionSubnet"
+PUBLIC_IP_NAME="hogwarts-bastion-ip"
+
+# Create Bastion subnet
+az network vnet subnet create \
+  --resource-group $RG \
+  --vnet-name $VNET_NAME \
+  --name $SUBNET_NAME \
+  --address-prefixes 172.16.2.0/27
+
+# Create Public IP for Bastion
+az network public-ip create \
+  --resource-group $RG \
+  --name $PUBLIC_IP_NAME \
+  --sku Standard \
+  --location $LOCATION
+
+# Create Bastion Host with Basic SKU
+az network bastion create \
+  --name $BASTION_NAME \
+  --resource-group $RG \
+  --location $LOCATION \
+  --vnet-name $VNET_NAME \
+  --public-ip-address $PUBLIC_IP_NAME \
+  --sku Basic
+
+echo "✅ Bastion created successfully!"
+
+# To delete Bastion after use:
+echo "Deleting Bastion and Public IP..."
+az network bastion delete --name $BASTION_NAME --resource-group $RG
+az network public-ip delete --name $PUBLIC_IP_NAME --resource-group $RG
+echo "✅ Bastion and Public IP deleted!"
+```
 
 ## 🧙 Lessons Learned
 
