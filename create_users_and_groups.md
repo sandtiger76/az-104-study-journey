@@ -49,12 +49,7 @@ The table below summarizes the users, their roles, groups, and the tool used for
 | Filius Flitwick     | Teacher        | Hogwarts Staff       | Ravenclaw   | Charms Professor, Head of Ravenclaw       | PowerShell    |
 | Pomona Sprout       | Teacher        | Hogwarts Staff       | Hufflepuff  | Herbology, Head of Hufflepuff             | PowerShell    |
 | Lord Voldemort      | Dark Wizard    | Death Eaters         | Slytherin   | Founder of Death Eaters                   | PowerShell    |
-| Bellatrix Lestrange | Dark Witch     | Death Eaters         | Slytherin   | Loyal to Voldemort                        | Bicep         |
-| Lucius Malfoy       | Dark Wizard    | Death Eaters         | Slytherin   | Draco's father                            | Bicep         |
-| Sirius Black        | Order Member   | Order of the Phoenix | Gryffindor  | Animagus, Harry's godfather               | Bicep         |
-| Remus Lupin         | Teacher        | Hogwarts Staff       | Gryffindor  | Werewolf, Order of the Phoenix            | Bicep         |
-| Molly Weasley       | Parent         | Order of the Phoenix |             | Mother of Ron, fierce protector           | Bicep         |
-| Arthur Weasley      | Ministry Worker| Order of the Phoenix |             | Works in Misuse of Muggle Artifacts       | Bicep         |
+
 
 ---
 ## 3. User & Group creation using Azure Portal
