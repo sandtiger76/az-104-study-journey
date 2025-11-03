@@ -158,3 +158,34 @@ Congratulations on completing the lab. Here are some main takeways for this lab:
 + Groups combine together related users or devices. There are two types of groups including Security and Microsoft 365.
 + Group membership can be statically or dynamically assigned.
 
+## Glossary of Terms
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure portal** | A web-based interface for managing Azure resources and services. |
+| **Microsoft Entra ID** | Azure’s cloud-based identity and access management service (formerly Azure Active Directory). |
+| **Tenant** | A dedicated instance of Microsoft Entra ID representing an organization. |
+| **User account** | An identity used to authenticate and authorize access to resources. |
+| **User principal name (UPN)** | The username format used in Microsoft Entra ID, typically like an email address. |
+| **Display name** | The name shown in the portal for a user or group. |
+| **Auto-generate password** | A feature that creates a secure password automatically for new users. |
+| **Account enabled** | Indicates whether a user account is active and usable. |
+| **Job title** | A property of a user account used for identification or dynamic group membership. |
+| **Department** | A user property that can help organize users or define group rules. |
+| **Usage location** | Specifies the country or region where the user primarily uses services. |
+| **External user** | A guest user invited from outside the organization to collaborate. |
+| **Group account** | A collection of users or devices managed together for access control. |
+| **Security group** | A type of group used to manage access to resources. |
+| **Membership type** | Defines how users are added to a group—either manually (static) or automatically (dynamic). |
+| **Static group** | A group where members are added or removed manually by an admin. |
+| **Dynamic group** | A group that updates membership automatically based on user properties. |
+| **Group owner** | A user who manages group settings and membership. |
+| **Group member** | A user or device that belongs to a group. |
+| **Licenses** | Subscriptions that enable features like dynamic group membership. |
+| **Password reset** | A feature allowing users to reset their own passwords securely. |
+| **Assigned membership** | A manual method of adding users to a group. |
+| **Entra ID Premium P1/P2** | Advanced licensing tiers that unlock features like dynamic groups and conditional access. |
+| **Quickstart Center** | A portal feature that helps new users get started with Azure. |
+| **Breadcrumb menu** | A navigation aid in the portal showing your current location and path. |
+| **Azure PowerShell / CLI** | Command-line tools for managing Azure resources programmatically. |
+| **Self-service password reset (SSPR)** | A feature that lets users reset their passwords without admin help. |
+
