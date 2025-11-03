@@ -16,7 +16,9 @@ The goal of this repository is to:
 
 ---
 
-## 📚 Labs Index
+## 📚 AZ-104 Course Labs
+
+These Microsoft labs are designed to prepare you for the AZ-104: Microsoft Azure Administrator exam, following the official course structure with modules and hands-on exercises. Where possible, I’ve added my own cleanup instructions, commands, or scripts to help you reset the mock lab environment and minimize Azure costs.
 
 | Module                              | Lab                                                      |
 |--------------------------------------|----------------------------------------------------------|
@@ -37,6 +39,8 @@ The goal of this repository is to:
 
 
 ### 📚 Aditional Labs
+
+These additional labs include custom cleanup scripts and instructions to help you efficiently manage resources and keep your Azure environment tidy and cost-effective. They are designed to complement the official Microsoft labs by providing practical, real-world scenarios such as Azure Bastion setup and automated user and group creation.
 
 - [Azure Bastion setup](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/More/Azure-Bastion.md)
 - [User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/More/create_users_and_groups.md)
