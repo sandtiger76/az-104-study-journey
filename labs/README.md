@@ -40,7 +40,7 @@ These Microsoft labs are designed to prepare you for the AZ-104: Microsoft Azure
 
 ### 📚 Aditional Labs
 
-These additional labs include custom cleanup scripts and instructions to help you efficiently manage resources and keep your Azure environment tidy and cost-effective. They are designed to complement the official Microsoft labs by providing practical, real-world scenarios such as Azure Bastion setup and automated user and group creation. A Glossary of Terms section at the end of each lab, providing brief explanations for key terms to help new learners better understand the content.
+These additional labs include custom cleanup scripts and instructions to help you efficiently manage resources and keep your Azure environment tidy and cost-effective. They are designed to complement the official Microsoft labs by providing practical, real-world scenarios such as Azure Bastion setup and automated user and group creation. A Glossary of Terms section has been added at the end of each lab, providing brief explanations for key terms to help new learners better understand the content.
 
 - [Azure Bastion setup](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/More/Azure-Bastion.md)
 - [User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/More/create_users_and_groups.md)
