@@ -24,8 +24,9 @@ The goal of this repository is to:
 
 **Core Labs**
 
-- **Administer Identity**
-  - [Lab 1: Manage Entra ID Identities](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identge Subscriptions and RBAC Entra](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entiger76/az-104-study-journey)
+- *Administer Identity*
+  - [Lab 1: Manage Entra ID Identities](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identge
+  - [Subscriptions and RBAC Entra](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entiger76/az-104-study-journey)
 - **Administer Azure Resources**
   - [Lab 3b: Manage Azure Resources by Using ARM Templates](https://github.com/sandtiger76/az-104-study-journey/blob/main/lent Virtual Networking**
   - [Lab 4: Implement Virtual Networking](https://github.com/sandtiger76/az-104-study-journey)
