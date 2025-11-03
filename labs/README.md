@@ -20,12 +20,93 @@ The goal of this repository is to:
 
 ## Labs
 
-{% assign labs = site.pages | where_exp:"page", "page.url contains '/Instructions/Labs'" %}
-| Module | Lab |
-| --- | --- |
-{% for activity in labs  %}| {{ activity.lab.module }} | [{{ activity.lab.title }}{% if activity.lab.type %} - {{ activity.lab.type }}{% endif %}]({{ site.github.url }}{{ activity.url }}) |
-{% endfor %}
+📚 Labs Index
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ModuleLab Title & LinkAdminister IdentityLab 1: Manage Entra ID IdentitiesAdminister Governance and ComplianceLab 2a: Manage Subscriptions and RBAC EntraAdminister Governance and ComplianceLab 2b: Manage Governance via Azure PolicyAdminister Azure ResourcesLab 3b: Manage Azure Resources by Using ARM TemplatesImplement Virtual NetworkingLab 4: Implement Virtual NetworkingAdminister Intersite ConnectivityLab 5: Implement Intersite ConnectivityAdminister Network Traffic ManagementLab 6: Implement Network Traffic ManagementAdminister Azure StorageLab 7: Manage Azure StorageAdminister Virtual MachinesLab 8: Manage Virtual MachinesAdminister PaaS Compute OptionsLab 9a: Implement Web AppsAdminister PaaS Compute OptionsLab 9b: Implement Azure Container InstancesAdminister PaaS Compute OptionsLab 9c: Implement Azure Container AppsAdminister Data ProtectionLab 10: Implement Data ProtectionAdminister MonitoringLab 11: Implement Monitoring
+
+🧩 Additional Labs
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Lab Title & LinkDescriptionAzure Bastion setupSecure remote access to VMsUser & Group Creation with scriptsAutomate user/group management
 ---
 
 # 📘 AZ-104 Study Journey – Attribution
