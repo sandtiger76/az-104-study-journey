@@ -169,6 +169,36 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + Roles are defined in a JSON formatted file and include *Actions*, *NotActions*, and *AssignableScopes*.
 + You can use the Activity Log to monitor role assignments.
 
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure portal** | A web-based interface for managing Azure resources and services. |
+| **Microsoft Entra ID** | Azure’s cloud-based identity and access management service. |
+| **Subscription** | A logical container for Azure resources, tied to billing and access control. |
+| **Management group** | A structure used to organize multiple Azure subscriptions for unified governance. |
+| **Root management group** | The top-level management group that includes all other groups and subscriptions. |
+| **Access control (IAM)** | A portal blade used to manage role-based access control (RBAC) settings. |
+| **Role-based access control (RBAC)** | A system that allows you to manage access to Azure resources based on roles. |
+| **Built-in role** | A predefined set of permissions in Azure, such as Owner, Contributor, or Reader. |
+| **Custom role** | A user-defined role with specific permissions tailored to organizational needs. |
+| **Virtual Machine Contributor** | A built-in role that allows management of VMs without access to OS or networking. |
+| **Support Request Contributor** | A built-in role that allows users to create and manage support requests. |
+| **Clone a role** | The process of duplicating an existing role to customize its permissions. |
+| **NotActions** | Permissions explicitly excluded from a role in RBAC. |
+| **AssignableScopes** | Defines where a role can be assigned, such as a subscription or management group. |
+| **Resource provider** | A service in Azure that offers a set of operations for managing resources. |
+| **Microsoft.Support** | The Azure resource provider responsible for support-related operations. |
+| **Activity log** | A log that tracks operations and changes made to Azure resources. |
+| **Helpdesk group** | A user group typically assigned limited permissions for support tasks. |
+| **Least privilege principle** | A security concept where users are given only the permissions they need. |
+| **Azure Resource Manager (ARM)** | The modern deployment model for managing Azure resources. |
+| **Classic deployment model** | The legacy model for Azure resource deployment, now deprecated. |
+| **JSON (JavaScript Object Notation)** | A lightweight data format used to define custom roles in Azure RBAC. |
+| **Delete resource group** | An action that removes all resources within a specified group in Azure. |
+| **Azure PowerShell** | A command-line tool for managing Azure resources using PowerShell scripts. |
+| **Azure CLI** | A cross-platform command-line tool for managing Azure resources. |
+
 
 
 

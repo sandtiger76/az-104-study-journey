@@ -247,3 +247,33 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + You can configure a resource lock on a subscription, resource group, or resource. The lock can protect a resource from accidental user deletions and modifications. The lock overrides any user permissions.
 + Azure Policy is pre-deployment security practice. RBAC and resource locks are post-deployment security practice.
 
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure portal** | A web-based interface for managing and configuring Azure resources. |
+| **Azure subscription** | A billing and access container for Azure services and resources. |
+| **Resource group** | A logical container for grouping related Azure resources. |
+| **Tag** | A key-value pair used to add metadata to Azure resources for organization and reporting. |
+| **Cost Center** | A tag value used to identify the financial owner or budget source of a resource. |
+| **Azure Policy** | A governance tool used to enforce rules and effects on Azure resources. |
+| **Policy definition** | A rule that describes conditions and effects for resource compliance in Azure Policy. |
+| **Policy assignment** | The act of applying a policy definition to a specific scope like a subscription or resource group. |
+| **Scope** | The boundary within which a policy or role is applied (e.g., subscription, resource group). |
+| **Built-in policy** | A predefined Azure Policy available for immediate use. |
+| **Require a tag and its value on resources** | A built-in policy that enforces tagging on new resources. |
+| **Inherit a tag from the resource group if missing** | A policy that applies a tag from the resource group to child resources if they lack it. |
+| **Remediation task** | A process that brings non-compliant resources into compliance with a policy. |
+| **Modify effect** | A policy effect that changes a resource to make it compliant. |
+| **Managed identity** | An automatically managed identity used by Azure services to authenticate securely. |
+| **Storage account** | An Azure resource used to store data objects like blobs, files, queues, and tables. |
+| **Validation failed** | An error message indicating that a resource creation did not meet policy requirements. |
+| **Raw Error** | A detailed view of the error message generated during a failed resource deployment. |
+| **Resource lock** | A setting that prevents accidental deletion or modification of Azure resources. |
+| **Delete lock** | A type of resource lock that prevents deletion of the locked resource. |
+| **Read-only lock** | A type of resource lock that prevents changes to the resource but allows viewing. |
+| **Microsoft Well-Architected Framework** | A set of guiding principles for building reliable and efficient cloud solutions. |
+| **Cloud Adoption Framework** | Microsoft’s guidance for planning and implementing cloud adoption strategies. |
+| **Azure PowerShell** | A command-line tool for managing Azure resources using PowerShell scripts. |
+| **Azure CLI** | A cross-platform command-line tool for managing Azure resources. |
+
