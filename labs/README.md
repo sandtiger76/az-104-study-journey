@@ -18,8 +18,6 @@ The goal of this repository is to:
 
 ## 📚 Labs Index
 
-*Core Labs*
-	Module		Lab
 | Module                              | Lab                                                      |
 |--------------------------------------|----------------------------------------------------------|
 | Administer Identity                  | Lab 01: Manage Microsoft Entra ID Identities             |
@@ -38,9 +36,10 @@ The goal of this repository is to:
 | Administer Monitoring                | Lab 11: Implement Monitoring                             |
 
 
-## 📚 Adtional Labs
+### Adtional Labs
+
 |[Azure Bastion setup](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/Azure-Bastion.md)|
-|[User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/create_users_and_groups.md)""
+|[User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/create_users_and_groups.md)|
 ---
 
 # 📘 AZ-104 Study Journey – Attribution
