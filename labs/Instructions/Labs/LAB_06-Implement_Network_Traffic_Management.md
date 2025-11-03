@@ -337,3 +337,37 @@ Congratulations on completing the lab. Here are the key points for this lab.
 + Azure Application Gateway is a web traffic (OSI layer 7) load balancer that enables you to manage traffic to your web applications.
 + The Application Gateway Standard tier offers all the L7 functionality, including load balancing, The WAF tier adds a firewall to check for malicious traffic.
 + An Application Gateway can make routing decisions based on additional attributes of an HTTP request, for example URI path or host headers.
+
+
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure portal** | A web-based interface for managing and deploying Azure resources. |
+| **Resource group** | A container that holds related Azure resources for unified management. |
+| **Virtual machine (VM)** | A software-based emulation of a physical computer running in Azure. |
+| **Virtual network (VNet)** | A logically isolated network in Azure that enables secure communication between resources. |
+| **Subnet** | A segment of a virtual network with a specific IP address range used to organize and secure resources. |
+| **Network Security Group (NSG)** | A set of rules that control inbound and outbound traffic to Azure resources. |
+| **Azure Load Balancer** | A layer 4 (TCP/UDP) load balancer that distributes incoming traffic across multiple VMs. |
+| **Frontend IP configuration** | The public or private IP address that receives incoming traffic for a load balancer. |
+| **Backend pool** | A group of resources (e.g., VMs) that receive traffic from a load balancer. |
+| **Load balancing rule** | A rule that defines how traffic is distributed from the frontend to the backend pool. |
+| **Health probe** | A mechanism used by load balancers to check the health of backend resources. |
+| **Standard SKU** | A performance tier for Azure resources offering enhanced features and scalability. |
+| **Static IP address** | An IP address that remains constant and does not change over time. |
+| **Inbound rule** | A configuration that defines how incoming traffic is handled by a load balancer or NSG. |
+| **Application Gateway** | A layer 7 (HTTP/HTTPS) load balancer that enables advanced routing and security features. |
+| **Web Application Firewall (WAF)** | A feature of Application Gateway that protects web apps from common threats. |
+| **SSL termination** | The process of decrypting SSL traffic at the gateway before forwarding it to backend servers. |
+| **Path-based routing** | A routing method that directs traffic based on the URL path to different backend pools. |
+| **Backend pool (App Gateway)** | A group of servers that receive traffic from the Application Gateway. |
+| **Listener** | A component that defines how the Application Gateway listens for incoming traffic. |
+| **Routing rule** | A configuration that maps incoming requests to backend targets based on conditions. |
+| **Frontend public IP address** | The public-facing IP address used by the Application Gateway to receive traffic. |
+| **Instance count** | The number of instances of the Application Gateway deployed for scalability. |
+| **Tier (App Gateway)** | Defines the feature set and performance level of the Application Gateway (e.g., Standard V2). |
+| **Idle timeout** | The duration a connection can remain idle before being closed by the load balancer. |
+| **Session persistence** | A setting that ensures a user's session is consistently routed to the same backend server. |
+| **Floating IP** | A configuration that enables direct server return scenarios for high-performance applications. |
+

@@ -276,3 +276,33 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + Bicep provides concise syntax, reliable type safety, and support for code reuse. Bicep offers a first-class authoring experience for your infrastructure-as-code solutions in Azure.
 
 
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure portal** | A web-based interface for managing and deploying Azure resources. |
+| **Azure Resource Manager (ARM)** | The deployment and management service for Azure that enables infrastructure-as-code. |
+| **ARM template** | A JSON file that defines Azure resources and their configurations for automated deployment. |
+| **Bicep** | A domain-specific language (DSL) for deploying Azure resources using a simplified syntax over ARM templates. |
+| **Resource group** | A container that holds related Azure resources for unified management. |
+| **Managed disk** | A durable, high-performance block storage option used with Azure virtual machines. |
+| **Template file (template.json)** | A JSON file that defines the structure and configuration of resources to be deployed. |
+| **Parameters file (parameters.json)** | A JSON file that supplies values to the parameters defined in the ARM template. |
+| **Quickstart template** | A pre-built ARM template provided by Microsoft to simplify common deployments. |
+| **Custom deployment** | A manual deployment method using user-defined templates in the Azure portal. |
+| **Cloud Shell** | A browser-based command-line interface for managing Azure resources using Bash or PowerShell. |
+| **Azure PowerShell** | A set of cmdlets for managing Azure resources from the command line using PowerShell. |
+| **Azure CLI** | A cross-platform command-line tool for managing Azure resources using Bash syntax. |
+| **New-AzResourceGroupDeployment** | A PowerShell command used to deploy resources to a resource group using a template. |
+| **az deployment group create** | A CLI command used to deploy resources to a resource group using a template. |
+| **ProvisioningState** | A status indicator showing whether a resource deployment succeeded or failed. |
+| **Editor (Cloud Shell)** | A built-in code editor in Azure Cloud Shell for editing scripts and templates. |
+| **Mount storage account** | A setup step in Cloud Shell that connects a storage account for persistent file access. |
+| **File share** | A shared storage location within a storage account used by Cloud Shell. |
+| **Standard HDD / SSD / StandardSSD_LRS** | Disk performance tiers in Azure, with varying cost and speed characteristics. |
+| **Infrastructure redundancy** | A setting that determines whether a resource is deployed with fault tolerance across zones. |
+| **Deployment scope** | The level at which a template is deployed—resource group, subscription, management group, or tenant. |
+| **Declarative syntax** | A programming style where you define *what* you want rather than *how* to do it, used in ARM and Bicep. |
+| **Infrastructure-as-Code (IaC)** | The practice of managing infrastructure using code templates for consistency and automation. |
+
+

@@ -263,3 +263,35 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + Azure blob storage allows you to store large amounts of unstructured data on Microsoft's data storage platform. Blob stands for Binary Large Object, which includes objects such as images and multimedia files.
 + Azure file Storage provides shared storage for structured data. The data can be organized in folders.
 + Immutable storage provides the capability to store data in a write once, read many (WORM) state. Immutable storage policies can be time-based or legal-hold.
+
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure portal** | A web-based interface for managing and configuring Azure resources. |
+| **Storage account** | A container in Azure that holds all storage services including blobs, files, queues, and tables. |
+| **Blob storage** | A service for storing large amounts of unstructured data such as text or binary files. |
+| **Azure Files** | A managed file share service in Azure accessible via SMB protocol. |
+| **Geo-redundant storage (GRS)** | A replication option that copies data to a secondary region for disaster recovery. |
+| **Standard performance tier** | A cost-effective storage option suitable for most workloads. |
+| **Premium performance tier** | A high-performance storage option for latency-sensitive applications. |
+| **Public network access** | A setting that controls whether the storage account is accessible over the public internet. |
+| **Lifecycle management** | A feature that automates moving or deleting blobs based on rules and conditions. |
+| **Cool storage tier** | A lower-cost storage tier for infrequently accessed data. |
+| **Blob container** | A directory-like structure within a storage account used to organize blobs. |
+| **Immutable blob storage** | A feature that prevents blob data from being modified or deleted for a specified retention period. |
+| **Block blob** | A type of blob optimized for streaming and storing cloud objects. |
+| **Access tier (Hot, Cool, Archive)** | Defines the frequency of access and cost model for blob storage. |
+| **SAS (Shared Access Signature)** | A URI that grants restricted access to Azure Storage resources without exposing account keys. |
+| **Blob SAS URL** | A URL with embedded SAS token that allows temporary access to a blob. |
+| **Storage Browser** | A tool in the Azure portal for managing blobs, files, queues, and tables within a storage account. |
+| **File share** | A shared folder in Azure Files that can be accessed by multiple users or services. |
+| **Transaction optimized tier** | A file share tier optimized for frequent access and operations. |
+| **Service endpoint** | A network configuration that allows secure access to Azure services over a virtual network. |
+| **Virtual network (VNet)** | A logically isolated network in Azure used to securely connect resources. |
+| **Subnet** | A segment of a virtual network with a specific IP address range. |
+| **Encryption scope** | Defines how data is encrypted within a storage account, using either Microsoft-managed or customer-managed keys. |
+| **Soft delete** | A data protection feature that allows recovery of deleted blobs within a retention period. |
+| **Versioning** | A feature that maintains previous versions of blobs for recovery or auditing. |
+| **Redundancy** | The replication of data across regions or zones to ensure availability and durability. |
+``

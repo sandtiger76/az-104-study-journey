@@ -369,6 +369,35 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + Application security groups are used to protect groups of servers with a common function, such as web servers or database servers.
 + Azure DNS is a hosting service for DNS domains that provides name resolution. You can configure Azure DNS to resolve host names in your public domain.  You can also use private DNS zones to assign DNS names to virtual machines (VMs) in your Azure virtual networks.
 
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure portal** | A web-based interface for managing and configuring Azure resources. |
+| **Virtual Network (VNet)** | A logically isolated network in Azure that allows resources to securely communicate with each other. |
+| **Subnet** | A range of IP addresses within a virtual network used to segment resources for organization and security. |
+| **IP address space** | The range of IP addresses assigned to a virtual network or subnet. |
+| **Address space overlap** | A situation where two networks share the same IP range, which can cause routing conflicts. |
+| **Resource group** | A container that holds related Azure resources for unified management. |
+| **Network Security Group (NSG)** | A set of rules that control inbound and outbound traffic to Azure resources. |
+| **Inbound security rule** | A rule in an NSG that defines allowed or denied traffic entering a resource. |
+| **Outbound security rule** | A rule in an NSG that defines allowed or denied traffic leaving a resource. |
+| **Application Security Group (ASG)** | A logical grouping of virtual machines used to simplify NSG rule management. |
+| **Service tag** | A predefined label in NSG rules that represents a group of IP addresses, such as Internet or Azure services. |
+| **Priority (NSG rule)** | A number that determines the order in which NSG rules are evaluated; lower numbers are evaluated first. |
+| **Action (NSG rule)** | Defines whether traffic is allowed or denied by a security rule. |
+| **Azure DNS** | A hosting service for DNS domains that provides name resolution using Microsoft Azure infrastructure. |
+| **DNS zone** | A container for DNS records for a specific domain name. |
+| **Public DNS zone** | A DNS zone accessible over the internet for resolving public domain names. |
+| **Private DNS zone** | A DNS zone used for internal name resolution within Azure virtual networks. |
+| **Record set** | A collection of DNS records with the same name and type in a DNS zone. |
+| **A record** | A DNS record that maps a domain name to an IPv4 address. |
+| **TTL (Time to Live)** | The duration in seconds that a DNS record is cached by DNS resolvers. |
+| **Virtual network link** | A connection between a private DNS zone and a virtual network to enable name resolution. |
+| **nslookup** | A command-line tool used to query DNS records and verify name resolution. |
+| **Export template** | A feature that allows you to generate an ARM template from existing resources for reuse. |
+| **template.json** | A JSON file that defines the structure and configuration of Azure resources for deployment. |
+| **parameters.json** | A JSON file that supplies values to parameters defined in a template for flexible deployments. |
 
 
 

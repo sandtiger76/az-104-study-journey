@@ -289,3 +289,32 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + The traffic between virtual machines in peered virtual networks uses the Microsoft backbone infrastructure.
 + System defined routes are automatically created for each subnet in a virtual network. User-defined routes override or add to the default system routes. 
 + Azure Network Watcher provides a suite of tools to monitor, diagnose, and view metrics and logs for Azure IaaS resources.
+
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure portal** | A web-based interface for managing and configuring Azure resources. |
+| **Virtual machine (VM)** | A software-based emulation of a physical computer running in Azure. |
+| **Virtual network (VNet)** | A logically isolated network in Azure that enables secure communication between resources. |
+| **Subnet** | A segment of a virtual network with a specific IP address range used to organize and secure resources. |
+| **Address range** | The IP address space assigned to a virtual network or subnet. |
+| **Virtual network peering** | A connection between two Azure virtual networks that allows resources to communicate across them. |
+| **Private IP address** | An internal IP address used for communication within a virtual network. |
+| **Public inbound ports** | Network ports that allow external traffic to reach a virtual machine. |
+| **Availability options** | Settings that determine the redundancy and fault tolerance of a virtual machine. |
+| **Boot diagnostics** | A feature that captures logs and screenshots to help diagnose VM startup issues. |
+| **Network Watcher** | A suite of tools for monitoring and diagnosing network issues in Azure. |
+| **Connection troubleshoot** | A Network Watcher tool used to test connectivity between Azure resources. |
+| **TCP (Transmission Control Protocol)** | A protocol used for reliable communication between devices over a network. |
+| **Port 3389** | The default port used for Remote Desktop Protocol (RDP) connections. |
+| **Run command** | A feature that allows you to run scripts on a VM directly from the Azure portal. |
+| **Test-NetConnection** | A PowerShell command used to test network connectivity to a specific IP and port. |
+| **Peering status** | Indicates whether a virtual network peering connection is active and functional. |
+| **Custom route** | A user-defined route that overrides default system routes to control traffic flow. |
+| **Route table** | A collection of routes used to direct network traffic within a virtual network. |
+| **Next hop type** | Specifies how traffic should be forwarded, such as to a virtual appliance or internet. |
+| **Virtual appliance** | A network device (e.g., firewall or router) deployed in Azure to manage traffic. |
+| **User-defined route (UDR)** | A custom route created to control traffic flow beyond default system routing. |
+| **System-defined route** | Automatically created routes in Azure that manage basic traffic flow between subnets. |
+| **Remote Desktop Connection (RDP)** | A protocol that allows users to connect to and control a remote Windows machine. |
