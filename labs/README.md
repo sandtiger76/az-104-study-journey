@@ -20,91 +20,29 @@ The goal of this repository is to:
 
 ## Labs
 
-📚 Labs Index
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-ModuleLab Title & LinkAdminister IdentityLab 1: Manage Entra ID IdentitiesAdminister Governance and ComplianceLab 2a: Manage Subscriptions and RBAC EntraAdminister Governance and ComplianceLab 2b: Manage Governance via Azure PolicyAdminister Azure ResourcesLab 3b: Manage Azure Resources by Using ARM TemplatesImplement Virtual NetworkingLab 4: Implement Virtual NetworkingAdminister Intersite ConnectivityLab 5: Implement Intersite ConnectivityAdminister Network Traffic ManagementLab 6: Implement Network Traffic ManagementAdminister Azure StorageLab 7: Manage Azure StorageAdminister Virtual MachinesLab 8: Manage Virtual MachinesAdminister PaaS Compute OptionsLab 9a: Implement Web AppsAdminister PaaS Compute OptionsLab 9b: Implement Azure Container InstancesAdminister PaaS Compute OptionsLab 9c: Implement Azure Container AppsAdminister Data ProtectionLab 10: Implement Data ProtectionAdminister MonitoringLab 11: Implement Monitoring
-
-🧩 Additional Labs
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+## 📚 Labs Index
+
+**Core Labs**
+
+- **Administer Identity**
+  - [Lab 1: Manage Entra ID Identities](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identge Subscriptions and RBAC Entra](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entiger76/az-104-study-journey)
+- **Administer Azure Resources**
+  - [Lab 3b: Manage Azure Resources by Using ARM Templates](https://github.com/sandtiger76/az-104-study-journey/blob/main/lent Virtual Networking**
+  - [Lab 4: Implement Virtual Networking](https://github.com/sandtiger76/az-104-study-journey)
+- **Administer Intersite Connectivity**
+  - [Lab 5: Implement Intersite Connectivity](https://github.com/sandtiger76/az-104-study-journey)
+- **Administer Network Traffic Management**
+  - [Lab 6: Implement Network Traffic Management](https://github.com/sandtiger76/az-104-study-journey)
+- **Administer Azure Storage**
+  - [Lab 7: Manage Azure Storage](https://github.com/sandtiger76/az-104-study-journey)
+- **Administer Virtual Machines**
+  - [Lab 8: Manage Virtual Machines](https://github.com/sandtiger76/az-104-study-journey)
+- **Administer PaaS Compute Options**
+  - [Lab 9a: Implement Web Apps](https://github.com/sandtiger76/az-104-study-journey)
+  - [Lab 9b: Implement Azure Container Instances](https://github.com/sandtiger76/az-104-study-journey)
+  - [Lab 9c: Implement Azure Container Apps](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructionstion**
+  - [Lab 10: Implement Data Protection](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_10-Implement_Data_Protectionttps://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_11-Implementtps://github.com/sandtiger76/az-104-study-journey)
+- [User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey)
 
 Lab Title & LinkDescriptionAzure Bastion setupSecure remote access to VMsUser & Group Creation with scriptsAutomate user/group management
 ---
