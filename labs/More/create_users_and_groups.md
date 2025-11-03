@@ -268,3 +268,29 @@ New-AzRoleAssignment -ObjectId "<Hagrid's ObjectId>" `
 
 
 ---
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure Active Directory (Azure AD)** | Microsoft’s cloud-based identity and access management service used to manage users, groups, and access to resources. |
+| **Microsoft Entra ID** | The new name for Azure AD, part of Microsoft’s broader identity and access management platform. |
+| **User Principal Name (UPN)** | The unique login name for a user in Azure AD, typically in the format `username@domain.com`. |
+| **Mail Nickname** | An alias used for email and group identification in Microsoft 365 and Azure AD. |
+| **Azure Portal** | A web-based interface for managing Azure resources through a graphical user interface. |
+| **Azure CLI** | A cross-platform command-line tool for managing Azure resources using scripts and terminal commands. |
+| **Azure PowerShell** | A set of cmdlets for managing Azure resources using PowerShell scripting. |
+| **Bicep** | A domain-specific language (DSL) for deploying Azure infrastructure as code, simplifying ARM templates. |
+| **Group** | A collection of users in Azure AD used to manage permissions and access collectively. |
+| **Microsoft 365 Group** | A type of group that provides collaboration features like shared mailboxes, calendars, and files. |
+| **Object ID** | A unique identifier assigned to each Azure AD object (user, group, etc.) used for scripting and automation. |
+| **Role Assignment** | A configuration that grants a user or group specific permissions to Azure resources. |
+| **Reader Role** | A built-in Azure role that allows viewing resources but not making changes. |
+| **Resource Group** | A container in Azure that holds related resources for unified management and billing. |
+| **Infrastructure as Code (IaC)** | The practice of managing and provisioning infrastructure using code and automation tools. |
+| **SecureString** | A PowerShell data type used to securely store sensitive information like passwords. |
+| **Connect-MgGraph** | A PowerShell command used to authenticate and connect to Microsoft Graph for managing Azure AD. |
+| **New-AzADUser** | A PowerShell cmdlet used to create a new user in Azure Active Directory. |
+| **New-AzRoleAssignment** | A PowerShell cmdlet used to assign roles to users or groups for access control. |
+| **Linux Bash Script** | A shell script used in Linux environments to automate tasks using command-line instructions. |
+
+---

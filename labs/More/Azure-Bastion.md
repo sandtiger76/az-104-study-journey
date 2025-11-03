@@ -157,7 +157,21 @@ echo "✅ Bastion and Public IP deleted!"
 
 ***
 
+## Glossary of Terms
 
-
-
-```
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure Bastion** | A fully managed PaaS service that provides secure and seamless RDP/SSH connectivity to Azure VMs without exposing them to the public internet. |
+| **Bastion Host** | A hardened jump server used to securely access private network resources, managed by Azure in this context. |
+| **AzureBastionSubnet** | A required, dedicated subnet with a `/27` prefix used exclusively for deploying Azure Bastion within a virtual network. |
+| **Standard SKU Public IP** | A type of Azure public IP address required for Bastion that supports zone redundancy and enhanced features. |
+| **Basic SKU** | A pricing and feature tier for Azure Bastion that offers essential functionality without advanced features like scaling or IP-based restrictions. |
+| **Virtual Network (VNet)** | A logically isolated network in Azure where resources like VMs and Bastion are deployed. |
+| **Subnet** | A segment of a VNet with a defined IP range used to organize and isolate resources. |
+| **RDP (Remote Desktop Protocol)** | A protocol used to remotely connect to Windows-based virtual machines. |
+| **SSH (Secure Shell)** | A protocol used to securely connect to Linux-based virtual machines. |
+| **Azure CLI** | A command-line tool for managing Azure resources using scripts or terminal commands. |
+| **FQDN (Fully Qualified Domain Name)** | The complete domain name used to access Azure resources like Bastion or VMs. |
+| **Provisioning State** | The current status of a resource deployment in Azure, such as "Succeeded" or "Creating". |
+| **Resource Group** | A container in Azure that holds related resources for unified management and billing. |
+| **East US** | An Azure region where resources like Bastion and VMs can be deployed. |
