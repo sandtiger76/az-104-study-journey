@@ -16,10 +16,6 @@ The goal of this repository is to:
 
 ---
 
-## Project Index
-
-## Labs
-
 ## 📚 Labs Index
 
 *Core Labs*
@@ -42,9 +38,9 @@ The goal of this repository is to:
 | Administer Monitoring                | Lab 11: Implement Monitoring                             |
 
 
-*Adtional Labs*
-[Azure Bastion setup](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/Azure-Bastion.md)
-[User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/create_users_and_groups.md)
+## 📚 Adtional Labs
+|[Azure Bastion setup](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/Azure-Bastion.md)|
+|[User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/create_users_and_groups.md)""
 ---
 
 # 📘 AZ-104 Study Journey – Attribution
