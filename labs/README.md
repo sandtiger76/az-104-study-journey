@@ -39,8 +39,8 @@ The goal of this repository is to:
 ### 📚 Aditional Labs
 
 
-- [Azure Bastion setup](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/Azure-Bastion.md)
-- [User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/create_users_and_groups.md)
+- [Azure Bastion setup](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/More/Azure-Bastion.md)
+- [User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/More/create_users_and_groups.md)
 ---
 
 # 📘 AZ-104 Study Journey – Attribution
