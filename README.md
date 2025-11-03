@@ -1,7 +1,6 @@
 # 📘 AZ-104 Study Journey
 
 Welcome to my personal documentation and project repository for the Microsoft Azure Administrator (AZ-104) certification.
-
 This repo serves as a practical journal of the hands-on tasks and projects I completed while preparing for the exam.
 
 ---
