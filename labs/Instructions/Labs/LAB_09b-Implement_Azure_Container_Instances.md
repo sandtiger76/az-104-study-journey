@@ -109,4 +109,24 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + ACI supports both Linux containers and Windows containers.
 + Workloads on ACI are usually started and stopped by some kind of process or trigger and are usually short-lived. 
 
+
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure Container Instances (ACI)** | A serverless container service in Azure that allows you to run containers without managing virtual machines. |
+| **Container** | A lightweight, portable, and self-sufficient unit that packages application code with its dependencies. |
+| **Docker** | A platform for developing, shipping, and running applications inside containers. |
+| **Container image** | A packaged snapshot of a container including the application code, runtime, libraries, and settings. |
+| **Quickstart image** | A pre-configured container image provided by Microsoft for testing and learning purposes. |
+| **Linux container** | A container that runs on a Linux-based operating system. |
+| **FQDN (Fully Qualified Domain Name)** | The complete domain name for a container instance, used to access it over the internet. |
+| **DNS name label** | A unique identifier used to generate the public URL for accessing a container instance. |
+| **Port 80** | The default port used for HTTP traffic, commonly used to serve web applications. |
+| **Container instance logs** | Diagnostic logs that capture output and activity from a running container. |
+| **HTTP GET request** | A type of web request used to retrieve data from a server, often logged during web access. |
+| **Azure portal** | A web-based interface for managing Azure resources and services. |
+| **Resource group** | A container that holds related Azure resources for unified management and billing. |
+| **Serverless container** | A container that runs without requiring the user to manage the underlying infrastructure. |
+
     

@@ -423,3 +423,36 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + Azure Virtual Machine Scale Sets let you create and manage a group of load balanced VMs.
 + The virtual machines in a Virtual Machine Scale Set are created from the same image and configuration.
 + In a Virtual Machine Scale Set the number of VM instances can automatically increase or decrease in response to demand or a defined schedule.
++
++ ## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure Virtual Machine (VM)** | An on-demand, scalable computing resource in Azure used to run applications and services. |
+| **Availability Zone** | A physically separate zone within an Azure region that provides high availability and fault tolerance. |
+| **Zone-resilient** | A deployment strategy that distributes resources across multiple availability zones to ensure uptime. |
+| **Virtual Machine Scale Set (VMSS)** | A group of identical, load-balanced VMs that can automatically scale in or out based on demand. |
+| **Manual scaling** | The process of manually changing the size or number of VM instances. |
+| **Autoscaling** | Automatically adjusting the number of VM instances in a scale set based on performance metrics or schedules. |
+| **Vertical scaling** | Changing the size (SKU) of a VM to increase or decrease its compute resources. |
+| **Horizontal scaling** | Adding or removing VM instances to handle changes in load. |
+| **SKU (Stock Keeping Unit)** | A specific configuration of a VM, including CPU, memory, and storage capabilities. |
+| **Premium SSD** | A high-performance solid-state drive used for VM OS or data disks. |
+| **Standard HDD/SSD** | Cost-effective disk options for less performance-intensive workloads. |
+| **Detach disk** | The action of removing a data disk from a VM without deleting the disk itself. |
+| **Attach existing disk** | Re-adding a previously detached or separately created disk to a VM. |
+| **Orchestration mode** | Defines how VM instances in a scale set are managed (e.g., Uniform or Flexible). |
+| **Uniform orchestration** | Ensures all VM instances in a scale set are identical and managed as a group. |
+| **Load balancer** | A networking resource that distributes incoming traffic across multiple VMs. |
+| **Network Security Group (NSG)** | A set of rules that control inbound and outbound traffic to Azure resources. |
+| **Inbound rule** | A rule that defines allowed or denied traffic entering a resource. |
+| **Boot diagnostics** | A feature that captures logs and screenshots to help diagnose VM startup issues. |
+| **Spot instance** | A discounted VM offering that can be evicted when Azure needs capacity. |
+| **Cloud Shell** | A browser-based command-line interface for managing Azure resources using PowerShell or Bash. |
+| **Azure PowerShell** | A set of cmdlets for managing Azure resources from the command line using PowerShell. |
+| **Azure CLI** | A cross-platform command-line tool for managing Azure resources using Bash syntax. |
+| **Deallocated** | A VM state where compute resources are released and billing for the VM stops. |
+| **Get-AzVM** | A PowerShell command used to retrieve information about Azure virtual machines. |
+| **az vm create** | A CLI command used to create a new virtual machine in Azure. |
+| **Scaling rule** | A condition that triggers autoscaling actions based on metrics like CPU usage. |
+| **Instance limits** | Minimum, maximum, and default number of VM instances in a scale set. |

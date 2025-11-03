@@ -289,3 +289,29 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + Azure Site Recovery is a disaster recovery solution that provides protection for your virtual machines and applications.
 + Azure Site Recovery replicates your workloads to a secondary site, and in the event of an outage or disaster, you can failover to the secondary site and resume operations with minimal downtime.
 + A Recovery Services vault stores your backup data and minimizes management overhead.
+
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure Backup** | A service that provides secure and cost-effective backup and recovery for Azure and on-premises resources. |
+| **Recovery Services Vault** | A storage entity in Azure that holds backup data and recovery configurations for protected resources. |
+| **Backup policy** | A set of rules that define how often backups occur and how long recovery points are retained. |
+| **Retention period** | The duration for which backup data is stored before being deleted. |
+| **Geo-redundant storage (GRS)** | A replication option that stores backup data in a secondary Azure region for disaster recovery. |
+| **Soft delete** | A protection feature that retains deleted backup data for a specified period to prevent accidental loss. |
+| **Cross Region Restore** | A feature that allows restoring backup data in a paired Azure region for enhanced resilience. |
+| **Backup Pre-Check** | A validation step that ensures a resource is ready for backup. |
+| **Backup items** | Resources that are currently protected by Azure Backup. |
+| **Backup jobs** | Operations related to backup activities, such as scheduled backups or manual triggers. |
+| **Diagnostic settings** | Configuration options that allow sending logs and metrics to external services like storage accounts or Log Analytics. |
+| **Azure Site Recovery (ASR)** | A disaster recovery service that replicates workloads to a secondary location for failover during outages. |
+| **Replication** | The process of copying data from a primary location to a secondary location for redundancy. |
+| **Replicated items** | Resources that are actively being replicated for disaster recovery. |
+| **Failover** | The process of switching to a secondary system or location when the primary system fails. |
+| **Test failover** | A simulated failover used to validate disaster recovery configurations without impacting production. |
+| **Protected items** | Resources that are either backed up or replicated for recovery purposes. |
+| **Virtual machine (VM)** | A software-based emulation of a physical computer running in Azure. |
+| **Custom template** | A JSON-based configuration used to automate deployment of Azure resources. |
+| **Log Analytics** | A tool for collecting and analyzing log data from Azure resources. |
+| **Archive to storage account** | A diagnostic setting that stores logs and metrics in a designated Azure Storage account. |

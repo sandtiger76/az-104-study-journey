@@ -92,4 +92,21 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + Container Apps provides server configuration, container orchestration, and deployment details. 
 + Workloads on ACA are usually long-running processes like a Web App.
 
+## Glossary of Terms
+
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure Container Apps (ACA)** | A serverless platform for running containerized applications without managing infrastructure or Kubernetes clusters. |
+| **Container App Environment** | A secure boundary within which Azure Container Apps run, including networking and logging configurations. |
+| **Container** | A lightweight, portable unit that packages application code with its dependencies for consistent execution. |
+| **Kubernetes** | An open-source system for automating deployment, scaling, and management of containerized applications. |
+| **Managed Kubernetes** | A Kubernetes service where the cloud provider handles cluster setup, maintenance, and scaling. |
+| **Quickstart image** | A pre-built container image provided by Azure for testing and demonstration purposes. |
+| **Hello World container** | A simple container image used to verify successful deployment of a container app. |
+| **Application URL** | The public DNS endpoint assigned to an Azure Container App for external access. |
+| **Serverless container** | A container that runs without requiring the user to manage servers or infrastructure. |
+| **Azure portal** | A web-based interface for managing and monitoring Azure resources. |
+| **Resource group** | A logical container in Azure that holds related resources for unified management. |
+| **Review + Create** | A final step in Azure resource creation that validates settings before deployment. |
+
      

@@ -197,3 +197,27 @@ Congratulations on completing the lab. Here are the main takeaways for this lab.
 + Deployment slots allow you to create separate environments for deploying and testing your web app.
 + You can manually or automatically scale a web app to handle additional demand.
 + A wide variety of diagnostics and testing tools are available. 
+
+## Glossary of Terms
+| **Term** | **Explanation** |
+|---------|------------------|
+| **Azure Web App** | A Platform as a Service (PaaS) offering for hosting web applications in Azure. |
+| **App Service** | A fully managed platform for building, deploying, and scaling web apps, APIs, and mobile backends. |
+| **App Service Plan** | Defines the region, features, and compute resources for an Azure Web App. |
+| **Runtime stack** | The programming language and framework environment used by the web app (e.g., PHP, .NET, Java). |
+| **Deployment slot** | A separate environment for staging, testing, or development that can be swapped with production. |
+| **Swap** | The process of exchanging content and configuration between deployment slots, typically staging and production. |
+| **External Git** | A deployment source option that connects a web app to a Git repository hosted outside Azure. |
+| **Continuous deployment** | Automatically deploying the latest code changes from a source repository to a web app. |
+| **Default domain** | The automatically assigned URL for accessing an Azure Web App. |
+| **Autoscaling** | Automatically adjusting the number of resources (e.g., instances) based on performance metrics. |
+| **Scale out** | Increasing the number of instances to handle higher demand. |
+| **Scale in** | Decreasing the number of instances when demand drops. |
+| **Premium V3 Plan** | A high-performance App Service plan tier with advanced scaling and zone redundancy features. |
+| **Zone redundancy** | A feature that distributes resources across multiple availability zones for high availability. |
+| **Load test** | A performance test that simulates traffic to evaluate how an app handles demand. |
+| **Virtual users** | Simulated users used during load testing to generate traffic. |
+| **Response time** | The time it takes for the web app to respond to a request during testing. |
+| **Requests/sec** | The number of HTTP requests handled per second during load testing. |
+| **Deployment Center** | A portal feature that manages deployment settings and source control integration. |
+| **Linux App Service** | A hosting option for web apps running on Linux-based environments. |
