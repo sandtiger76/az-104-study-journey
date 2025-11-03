@@ -18,7 +18,7 @@ The goal of this repository is to:
 
 ## 📚 AZ-104 Course Labs
 
-These Microsoft labs are designed to prepare you for the AZ-104: Microsoft Azure Administrator exam, following the official course structure with modules and hands-on exercises. Where possible, I’ve added my own cleanup instructions, commands, or scripts to help you reset the mock lab environment and minimize Azure costs.
+These Microsoft labs are designed to prepare you for the AZ-104: Microsoft Azure Administrator exam, following the official course structure with modules and hands-on exercises. Where possible, I’ve added my own cleanup instructions, commands, or scripts to help you reset the mock lab environment and minimize Azure costs. I’ve added a Glossary of Terms section at the end of each lab, providing brief explanations for key terms to help new learners better understand the content.
 
 | Module                              | Lab                                                      |
 |--------------------------------------|----------------------------------------------------------|
