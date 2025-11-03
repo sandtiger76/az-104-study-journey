@@ -48,6 +48,8 @@ Special thanks to the Microsoft Learning team for providing high-quality, open-s
 
 I have adapted portions of their content to suit my personal learning style and project structure. This includes reorganizing files and integrating the materials into my own study journey.
 
-This repository contains adapted content from the official Microsoft Learning [GitHub repository][MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator) for the AZ-104 certification:
+This repository contains adapted content from the official Microsoft Learning GitHub repository for the AZ-104 certification:
+
+🔗 [MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator)
 
 ---
