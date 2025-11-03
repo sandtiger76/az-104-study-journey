@@ -23,6 +23,13 @@ The goal of this repository is to:
 
 🧩 [Projects](https://github.com/sandtiger76/az-104-study-journey/blob/main/projects/README.md) – Scenario-based implementations combining multiple labs.
 
+
+- 🔬 Labs
+  Task-based guides and scripts for specific Azure services. Includes CLI scripts, screenshots, and setup instructions.
+
+- 🧩 Projects
+  Scenario-based implementations that combine multiple labs into cohesive, real-world solutions.
+
 ---
 
 ## Feedback & Contributions
