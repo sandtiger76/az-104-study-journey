@@ -23,29 +23,26 @@ The goal of this repository is to:
 ## 📚 Labs Index
 
 **Core Labs**
+	Module		Lab
+[Administer Identity](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identities.md)
+[Administer Governance and Compliance](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entra.md)
+[Administer Governance and Compliance](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02b-Manage_Governance_via_Azure_Policy.md)
+[Administer Azure Resources](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_03b-Manage_Azure_Resources_by_Using_ARM_Templates.md)
+[Implement Virtual Networking](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_04-Implement_Virtual_Networking.md)
+[Administer Intersite Connectivity](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_05-Implement_Intersite_Connectivity.md)
+[Administer Network Traffic Management](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_06-Implement_Network_Traffic_Management.md)
+[Administer Azure Storage](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_07-Manage_Azure_Storage.md)
+[Administer Virtual Machines](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_08-Manage_Virtual_Machines.md)
+[Administer PaaS Compute Options](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_09a-Implement_Web_Apps.md)
+[Administer PaaS Compute Options](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_09b-Implement_Azure_Container_Instances.md)
+[Administer PaaS Compute Options](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_09c-Implement-Azure-Container-Apps.md)
+[Administer Data Protection](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_10-Implement_Data_Protection.md)
+[Administer Monitoring](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_11-Implement_Monitoring.md)
+			)
 
-- *Administer Identity*
-  - [Lab 1: Manage Entra ID Identities](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identge
-  - [Subscriptions and RBAC Entra](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entiger76/az-104-study-journey)
-- **Administer Azure Resources**
-  - [Lab 3b: Manage Azure Resources by Using ARM Templates](https://github.com/sandtiger76/az-104-study-journey/blob/main/lent Virtual Networking**
-  - [Lab 4: Implement Virtual Networking](https://github.com/sandtiger76/az-104-study-journey)
-- **Administer Intersite Connectivity**
-  - [Lab 5: Implement Intersite Connectivity](https://github.com/sandtiger76/az-104-study-journey)
-- **Administer Network Traffic Management**
-  - [Lab 6: Implement Network Traffic Management](https://github.com/sandtiger76/az-104-study-journey)
-- **Administer Azure Storage**
-  - [Lab 7: Manage Azure Storage](https://github.com/sandtiger76/az-104-study-journey)
-- **Administer Virtual Machines**
-  - [Lab 8: Manage Virtual Machines](https://github.com/sandtiger76/az-104-study-journey)
-- **Administer PaaS Compute Options**
-  - [Lab 9a: Implement Web Apps](https://github.com/sandtiger76/az-104-study-journey)
-  - [Lab 9b: Implement Azure Container Instances](https://github.com/sandtiger76/az-104-study-journey)
-  - [Lab 9c: Implement Azure Container Apps](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructionstion**
-  - [Lab 10: Implement Data Protection](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_10-Implement_Data_Protectionttps://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_11-Implementtps://github.com/sandtiger76/az-104-study-journey)
-- [User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey)
-
-Lab Title & LinkDescriptionAzure Bastion setupSecure remote access to VMsUser & Group Creation with scriptsAutomate user/group management
+	Adtional Labs
+[Azure Bastion setup](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/Azure-Bastion.md)
+[User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/more/create_users_and_groups.md)
 ---
 
 # 📘 AZ-104 Study Journey – Attribution
