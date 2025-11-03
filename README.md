@@ -10,18 +10,19 @@ It includes focused labs, real-world projects, CLI scripts, and visual aids — 
 ## 🎯 Purpose
 The goal of this repository is to:
 
-✅ Document real-world Azure tasks performed during AZ-104 preparation
-✅ Reinforce my own learning through hands-on practice and GitHub version control
-✅ Serve as a reference for future Azure projects
-✅ Optionally help others studying for AZ-104 by sharing practical examples
-✅ Showcase practical skills in identity, compute, networking, monitoring, and app deployment
+✅ Document real-world Azure tasks performed during AZ-104 preparation.
+✅ Reinforce my own learning through hands-on practice and GitHub version control.
+✅ Serve as a reference for future Azure projects.
+✅ Optionally help others studying for AZ-104 by sharing practical examples.
+✅ Showcase practical skills in identity, compute, networking, monitoring, and app deployment.
 
 ---
 
 ### 📁 Repository Structure
 
-🔬 [Labs](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/README.md) – Task-based guides and scripts for specific Azure services
-🧩 [Projects](https://github.com/sandtiger76/az-104-study-journey/blob/main/projects/README.md) – Scenario-based implementations combining multiple labs
+🔬 [Labs](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/README.md) – Task-based guides and scripts for specific Azure services.
+
+🧩 [Projects](https://github.com/sandtiger76/az-104-study-journey/blob/main/projects/README.md) – Scenario-based implementations combining multiple labs.
 
 ---
 
