@@ -36,33 +36,10 @@ The goal of this repository is to:
 | Administer Monitoring                | [Lab 11: Implement Monitoring](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_11-Implement_Monitoring.md)                             |
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ### 📚 Aditional Labs
-
 
 - [Azure Bastion setup](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/More/Azure-Bastion.md)
 - [User & Group Creation with scripts](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/More/create_users_and_groups.md)
----
-
-# 📘 AZ-104 Study Journey – Attribution
-
-This repository contains adapted content from the official Microsoft Learning GitHub repository for the AZ-104 certification:
-
-🔗 [MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator)
-
 ---
 
 ### 🙏 Acknowledgment & Attribution
@@ -74,3 +51,5 @@ I have adapted portions of their content to suit my personal learning style and 
 This repository contains adapted content from the official Microsoft Learning GitHub repository for the AZ-104 certification:
 
 🔗 [MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator](https://github.com/MicrosoftLearning/AZ-104-MicrosoftAzureAdministrator)
+
+---
