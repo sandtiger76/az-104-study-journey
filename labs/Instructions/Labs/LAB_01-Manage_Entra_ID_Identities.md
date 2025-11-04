@@ -158,6 +158,58 @@ Congratulations on completing the lab. Here are some main takeways for this lab:
 + Groups combine together related users or devices. There are two types of groups including Security and Microsoft 365.
 + Group membership can be statically or dynamically assigned.
 
+## 🧹 Undo Lab 01: Manage Microsoft Entra ID Identities
+This guide will help you delete the users and groups you created during the lab using the Azure portal.
+
+✅ Step-by-Step Instructions
+🔹 Step 1: Sign in to Azure Portal
+
+Go to https://portal.azure.com.
+Sign in with your Azure account.
+
+
+🔹 Step 2: Delete the User az104-user1
+
+In the search bar, type Microsoft Entra ID and select it.
+In the left-hand menu, select Users.
+Find the user named az104-user1.
+Click on the user to open their profile.
+At the top, click Delete.
+Confirm the deletion.
+
+
+🔹 Step 3: Delete the External (Guest) User
+
+In the Users section, look for the external user you invited (your email address).
+Click on the guest user to open their profile.
+Click Delete at the top.
+Confirm the deletion.
+
+## 🧹 Azure CLI Commands to Undo Lab 01 Tasks (Alternative)
+✅ Before You Run These Commands
+
+Ensure you're signed in to Azure CLI:
+```
+az login
+```
+
+🔸 1. Delete a User
+(Replace az104-user1 with the full User Principal Name (UPN) if needed, e.g., az104-user1@yourdomain.onmicrosoft.com.)
+```
+az ad user delete --id user1@yourdomain.onmicrosoft.com
+```
+
+🔸 2. Delete a Group
+(Make sure the group name matches exactly, including capitalization.)
+```
+az ad group delete --group "IT Lab Administrators"
+```
+
+
+
+You must have sufficient permissions in Microsoft Entra ID to delete users and groups.
+These actions are permanent unless recovery options are configured.
+
 ## Glossary of Terms
 | **Term** | **Explanation** |
 |---------|------------------|
