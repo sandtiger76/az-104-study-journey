@@ -188,18 +188,18 @@ Confirm the deletion.
 ## 🧹 Azure CLI Commands to Undo Lab 01 Tasks (Alternative)
 ✅ Before You Run These Commands
 
-Ensure you're signed in to Azure CLI:
+- Step 1: Ensure you're signed in to Azure CLI:
 ```
 az login
 ```
 
-- 1. Delete a User
+- Step 2: Delete a User
 (Replace az104-user1 with the full User Principal Name (UPN) if needed, e.g., user@yourdomain.com.)
 ```
 az ad user delete --id az104-user1@yourdomain.onmicrosoft.com
 ```
 
-- 2. Delete a Group
+- Step 3: Delete a Group
 (Make sure the group name matches exactly, including capitalization.)
 ```
 az ad group delete --group "IT Lab Administrators"
