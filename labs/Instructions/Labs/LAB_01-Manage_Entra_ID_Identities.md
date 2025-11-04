@@ -194,9 +194,9 @@ az login
 ```
 
 🔸 1. Delete a User
-(Replace az104-user1 with the full User Principal Name (UPN) if needed, e.g., az104-user1@yourdomain.onmicrosoft.com.)
+(Replace az104-user1 with the full User Principal Name (UPN) if needed, e.g., user@yourdomain.com.)
 ```
-az ad user delete --id user1@yourdomain.onmicrosoft.com
+az ad user delete --id az104-user1@yourdomain.onmicrosoft.com
 ```
 
 🔸 2. Delete a Group
