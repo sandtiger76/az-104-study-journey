@@ -185,7 +185,7 @@ Click on the guest user to open their profile.
 Click Delete at the top.
 Confirm the deletion.
 
-## 🧹 Azure CLI * Powershell Commands to create users (Alternative)
+## 🧹 Azure CLI & Powershell Commands to create users (Alternative)
 
 
 ### Step 1a: *CLI* command to Create a New User
@@ -277,14 +277,14 @@ az login
 ```
 
 - Step 2a: Delete a User. \
-(Find your full User Principal Name (UPN) of your az104-user1 user, e.g., az104-user1@yourdomain.onmicrosoft.com.)
+(Find your full User Principal Name (UPN) of your az104-user1 user, e.g., az104-user1@<yourdomain>.onmicrosoft.com.)
 ```
 az ad user delete --id az104-user1@yourdomain.onmicrosoft.com
 ```
 - Step 2b: Delete a User. \
-(Find your full User Principal Name (UPN) of your external user, e.g., youremail_domain#EXT#@yourdomain.onmicrosoft.com.)
+(Find your full User Principal Name (UPN) of your external user, e.g., youremail_domain#EXT#@<yourdomain>.onmicrosoft.com.)
 ```
-az ad user delete --id youremail_domain#EXT#@yourdomain.onmicrosoft.com
+az ad user delete --id youremail_domain#EXT#@<yourdomain>.onmicrosoft.com
 ```
 
 - Step 3: Delete a Group. \
