@@ -108,7 +108,7 @@ In this task, you create a group account. Group accounts can include user accoun
 
     | Setting | Value |
     | --- | --- |
-    | Group type |``` '**Security**' ```|
+    | Group type |'**Security**'|
     | Group name | `IT Lab Administrators` |
     | Group description | `Administrators that manage the IT lab` |
     | Membership type | **Assigned** |
