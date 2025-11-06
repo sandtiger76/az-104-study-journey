@@ -206,7 +206,7 @@ az ad group delete --group "IT Lab Administrators"
 
 <div style="color:blue">
 
-##Access management for Azure resources
+## Access management for Azure resources
 
 In Azure, the setting "Access management for Azure resources" is a tenant-level toggle that controls whether Azure AD (Microsoft Entra ID) administrators can manage Azure resources (like subscriptions, resource groups, and VMs) in the Azure portal.
 
