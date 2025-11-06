@@ -185,7 +185,7 @@ Click on the guest user to open their profile.
 Click Delete at the top.
 Confirm the deletion.
 
-## 🧹 Azure CLI & Powershell Commands to create users (Alternative)
+## Azure CLI & Powershell Commands to create users (Alternative)
 
 
 ### Step 1a: *CLI* command to Create a New User
@@ -219,16 +219,16 @@ New-MgInvitation `
   -InvitedUserMessageInfo @{CustomizedMessageBody="Welcome to Azure and our group project"}
 ```
 
-### Step 3: *CLI* command to Update External User
-```bash
-az ad user update \
-  --id "<your-email>" \
-  --job-title "IT Lab Administrator" \
-  --department "IT" \
-  --usage-location "US"
+### Step 3: *PowerShell* command to Update New External User
+
+Update-MgUser `
+  -UserId "externaluser@<yourdomain>.onmicrosoft.com" `
+  -JobTitle "IT Lab Administrator" `
+  -Department "IT" `
+  -UsageLocation "US"
 ```
 
-## 🧹 Task 2: Create Groups and Add Members (Alternative)
+## Task 2: Create Groups and Add Members (Alternative)
 
 ### Step 1: Create a Security Group
 ```bash
