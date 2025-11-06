@@ -254,7 +254,7 @@ az ad group owner add \
     --owner-object-id "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx"
 ```
 
-### Step 24: Add Group members: \
+### Step 4: Add Group members: \
 Replace "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx" with the id of az104-user1@<yourdomain>.onmicrosoft.com"
 ```bash
 az ad group member add \
