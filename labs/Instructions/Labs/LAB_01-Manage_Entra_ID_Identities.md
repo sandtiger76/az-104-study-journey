@@ -193,9 +193,13 @@ az login
 ```
 
 - Step 2: Delete a User
-(Replace az104-user1 with the full User Principal Name (UPN) if needed, e.g., user@yourdomain.com.)
+(Replace az104-user1 with the full User Principal Name (UPN) if needed, e.g., az104-user1@yourdomain.onmicrosoft.com.)
 ```
 az ad user delete --id az104-user1@yourdomain.onmicrosoft.com
+```
+(Replace az104-user1 with the full User Principal Name (UPN) if needed, e.g., youremail_domain#EXT#@yourdomain.onmicrosoft.com.)
+```
+az ad user delete --id youremail_domain#EXT#@yourdomain.onmicrosoft.com
 ```
 
 - Step 3: Delete a Group
@@ -203,31 +207,6 @@ az ad user delete --id az104-user1@yourdomain.onmicrosoft.com
 ```
 az ad group delete --group "IT Lab Administrators"
 ```
-
-<div style="color:blue">
-## Access management for Azure resources
-
-In Azure, the setting "Access management for Azure resources" is a tenant-level toggle that controls whether Azure AD (Microsoft Entra ID) administrators can manage Azure resources (like subscriptions, resource groups, and VMs) in the Azure portal.
-
-🔐 What It Does
-When enabled, it allows Azure AD Global Administrators (and other directory roles) to:
-
-Elevate their access to manage all Azure subscriptions and management groups in the tenant.
-Assign themselves the Owner role at the root management group level.
-
-
-✅ When to Enable It
-Enable this if:
-
-You’re a Global Admin and need to manage Azure resources.
-You’re setting up management groups, policies, or RBAC at a high level.
-You want to bootstrap access to subscriptions when no one else has access.
-
-
-⚠️ Caution
-
-This setting does not grant access by default — it allows elevation of access.
-Use it carefully, especially in production environments, as it gives broad control over all Azure resources.
 
 
 ## Glossary of Terms
@@ -260,5 +239,5 @@ Use it carefully, especially in production environments, as it gives broad contr
 | **Breadcrumb menu** | A navigation aid in the portal showing your current location and path. |
 | **Azure PowerShell / CLI** | Command-line tools for managing Azure resources programmatically. |
 | **Self-service password reset (SSPR)** | A feature that lets users reset their passwords without admin help. |
-</div>
+
 
