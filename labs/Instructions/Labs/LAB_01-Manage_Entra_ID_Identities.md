@@ -108,7 +108,7 @@ In this task, you create a group account. Group accounts can include user accoun
 
     | Setting | Value |
     | --- | --- |
-    | Group type | **Security** |
+    | Group type |```**Security**```|
     | Group name | `IT Lab Administrators` |
     | Group description | `Administrators that manage the IT lab` |
     | Membership type | **Assigned** |
@@ -205,7 +205,6 @@ az ad group delete --group "IT Lab Administrators"
 ```
 
 <div style="color:blue">
-
 ## Access management for Azure resources
 
 In Azure, the setting "Access management for Azure resources" is a tenant-level toggle that controls whether Azure AD (Microsoft Entra ID) administrators can manage Azure resources (like subscriptions, resource groups, and VMs) in the Azure portal.
@@ -261,6 +260,5 @@ Use it carefully, especially in production environments, as it gives broad contr
 | **Breadcrumb menu** | A navigation aid in the portal showing your current location and path. |
 | **Azure PowerShell / CLI** | Command-line tools for managing Azure resources programmatically. |
 | **Self-service password reset (SSPR)** | A feature that lets users reset their passwords without admin help. |
-
 </div>
 
