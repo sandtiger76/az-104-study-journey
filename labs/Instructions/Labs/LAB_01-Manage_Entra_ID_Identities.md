@@ -193,11 +193,11 @@ az login
 ```
 
 - Step 2: Delete a User
-(Replace az104-user1 with the full User Principal Name (UPN) if needed, e.g., az104-user1@yourdomain.onmicrosoft.com.)
+(Find your full User Principal Name (UPN) of your az104-user1 user, e.g., az104-user1@yourdomain.onmicrosoft.com.)
 ```
 az ad user delete --id az104-user1@yourdomain.onmicrosoft.com
 ```
-(Replace az104-user1 with the full User Principal Name (UPN) if needed, e.g., youremail_domain#EXT#@yourdomain.onmicrosoft.com.)
+(Find your full User Principal Name (UPN) of your external user, e.g., youremail_domain#EXT#@yourdomain.onmicrosoft.com.)
 ```
 az ad user delete --id youremail_domain#EXT#@yourdomain.onmicrosoft.com
 ```
