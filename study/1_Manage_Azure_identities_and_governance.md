@@ -159,6 +159,36 @@ flowchart TD
 
 #### **Manage built-in Azure roles**
 
+**Owner**
+*Scope*: Assignable at any RBAC scope (Management Group, Subscription, Resource Group, Resource)
+
+Permissions: Full control over all resources within the scope, including creating, modifying, and deleting resources. Crucially, the Owner can delegate access by assigning roles to others.
+
+Exam Tip: The Owner role has the maximum control, combining resource management and RBAC role assignment privileges without restrictions.​
+
+Contributor
+Scope: Same as Owner; assignable at any RBAC scope.
+
+Permissions: Can create and manage all types of Azure resources but cannot assign roles or permissions to others (no access delegation). It has a broad "allow all" except permission to manage roles, delete assignments, or certain blueprint/gallery actions.
+
+Exam Tip: Contributor is for resource management only, lacking access delegation capabilities.​
+
+User Access Administrator
+Scope: Any RBAC scope.
+
+Permissions: Manages user access to Azure resources through RBAC role assignments. Can assign roles and manage access control but cannot create or manage the resources themselves.
+
+Exam Tip: Often combined with Contributor in scenarios where resource management and access delegation are split across roles. Alone, this role manages access but not resources.​
+
+Additional Clarification
+While combining Contributor and User Access Administrator covers almost all Owner capabilities, some specific permissions like managing blueprint assignments or gallery sharing remain exclusive to the Owner role.
+
+Owner role permissions include "*", with no "NotActions," meaning full unrestricted access and delegation.​
+
+This distinction is critical for exam scenarios related to RBAC and role assignment policies.
+
+In short, Owner = full control + delegation, Contributor = manage resources, User Access Admin = manage role assignments only.
+
 
 | **Role**                     | **Description**                                                                 |
 | ---------------------------- | ------------------------------------------------------------------------------- |
