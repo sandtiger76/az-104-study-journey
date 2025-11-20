@@ -159,64 +159,52 @@ flowchart TD
 
 #### **Manage built-in Azure roles**
 
-**Owner**
-*Scope*: Assignable at any RBAC scope (Management Group, Subscription, Resource Group, Resource)
 
-Permissions: Full control over all resources within the scope, including creating, modifying, and deleting resources. Crucially, the Owner can delegate access by assigning roles to others.
+- **Owner**
+  - Full control over resources **and** can assign roles (delegate access).
+  - *Exam Tip:* Maximum privileges, including RBAC role assignment.
 
-Exam Tip: The Owner role has the maximum control, combining resource management and RBAC role assignment privileges without restrictions.​
+- **Contributor**
+  - Can create/manage resources but **cannot assign roles**.
+  - *Exam Tip:* Resource management only, no access delegation.
 
-Contributor
-Scope: Same as Owner; assignable at any RBAC scope.
+- **User Access Administrator**
+  - Can **assign RBAC roles** but **cannot manage resources**.
+  - *Exam Tip:* Often combined with Contributor for split responsibilities.
 
-Permissions: Can create and manage all types of Azure resources but cannot assign roles or permissions to others (no access delegation). It has a broad "allow all" except permission to manage roles, delete assignments, or certain blueprint/gallery actions.
+---
 
-Exam Tip: Contributor is for resource management only, lacking access delegation capabilities.​
+#### **Quick Comparison**
+| **Role**                     | **Manage Resources?** | **Assign Roles?** |
+| ---------------------------- | ---------------------- | ------------------ |
+| **Owner**                   | ✅                     | ✅                 |
+| **Contributor**             | ✅                     | ✗                 |
+| **User Access Administrator**| ✗                     | ✅                 |
 
-User Access Administrator
-Scope: Any RBAC scope.
+---
 
-Permissions: Manages user access to Azure resources through RBAC role assignments. Can assign roles and manage access control but cannot create or manage the resources themselves.
+#### **Other Roles**
+- **Reader** – View only, no changes.
+- **Backup Operator** – Backup/restore tasks.
+- **Security Reader** – View security reports.
+- **VM Contributor** – Manage VMs only.
 
-Exam Tip: Often combined with Contributor in scenarios where resource management and access delegation are split across roles. Alone, this role manages access but not resources.​
+---
 
-Additional Clarification
-While combining Contributor and User Access Administrator covers almost all Owner capabilities, some specific permissions like managing blueprint assignments or gallery sharing remain exclusive to the Owner role.
-
-Owner role permissions include "*", with no "NotActions," meaning full unrestricted access and delegation.​
-
-This distinction is critical for exam scenarios related to RBAC and role assignment policies.
-
-In short, Owner = full control + delegation, Contributor = manage resources, User Access Admin = manage role assignments only.
-
-
-| **Role**                     | **Description**                                                                 |
-| ---------------------------- | ------------------------------------------------------------------------------- |
-| **Owner**                   | Full access to all resources; can delegate access to others.                   |
-| **Contributor**             | Can create/manage resources but **cannot assign roles or permissions**.        |
-| *Reader*                  | Can view resources but **cannot make changes**.                                |
-| **User Access Administrator**| Manage user access to resources (assign RBAC roles).                          |
-| *Backup Operator*         | Perform backup and restore operations.                                         |
-| *Security Reader*         | View security-related information and reports.                                 |
-| *Virtual Machine Contributor*| Manage VMs but cannot manage networking or storage associated with them.     |
-
+### ✅ **Mermaid Diagram**
 ```mermaid
 flowchart TD
-    A[Azure Roles for Access Management] --> B[**Owner**]
-    A --> C[**Contributor**]
+    A[Azure RBAC Roles] --> B[Owner]
+    A --> C[Contributor]
     A --> D[Reader]
     A --> E[Specialized Roles]
 
     B --> B1[Full control + delegate access]
-    C --> C1[Manage resources but no role assignment]
-    D --> D1[View only, no changes]
-
-    E --> E1[**User Access Administrator**]
+    C --> C1[Manage resources only]
+    E --> E1[User Access Administrator: Assign roles only]
     E --> E2[Backup Operator]
     E --> E3[Security Reader]
     E --> E4[VM Contributor]
-
-```
 
 
 
