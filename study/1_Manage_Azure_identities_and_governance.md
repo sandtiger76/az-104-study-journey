@@ -1,4 +1,3 @@
-# AZ-104 Study Notes
 ## Domain 1 - Manage Azure identities and governance
 
 ---
