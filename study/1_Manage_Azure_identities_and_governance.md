@@ -173,8 +173,8 @@ flowchart TD
 
 ```mermaid
 flowchart TD
-    A[Azure Roles for Access Management] --> B[*Owner*]
-    A --> C[*Contributor*]
+    A[Azure Roles for Access Management] --> B[**Owner**]
+    A --> C[**Contributor**]
     A --> D[Reader]
     A --> E[Specialized Roles]
 
@@ -182,7 +182,7 @@ flowchart TD
     C --> C1[Manage resources but no role assignment]
     D --> D1[View only, no changes]
 
-    E --> E1[*User Access Administrator*]
+    E --> E1[**User Access Administrator**]
     E --> E2[Backup Operator]
     E --> E3[Security Reader]
     E --> E4[VM Contributor]
