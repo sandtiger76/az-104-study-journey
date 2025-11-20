@@ -29,7 +29,8 @@ flowchart TD
     D1 --> D2[Authenticates via External Identity Provider]
 ```
 
-#### Methods to create users and groups
+#### Methods to create Users and Groups
+
 | **Portal/Method**                       | **Main Use Case**                                             |
 | --------------------------------------- | ------------------------------------------------------------- |
 | **Azure Portal**                        | All user/group tasks, access, licensing, directory config     |
@@ -54,7 +55,7 @@ flowchart TD
 
 
 
-#### **Create users and groups**
+**Create users and groups**
 **Notes:**
 - [ ] Key concepts: Cloud-only vs synced users, group types (Security vs M365), RBAC integration.
 - [ ] Roles: Global Admin, User Admin, least privilege principle.
