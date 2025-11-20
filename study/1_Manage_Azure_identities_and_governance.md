@@ -1,0 +1,170 @@
+# AZ-104 Study Notes
+## Domain 1 - Manage Azure identities and governance
+
+---
+
+### 1.1 Manage Microsoft Entra ID users and groups
+
+#### **Create users and groups**
+**Notes:**
+- [ ] Key concepts: Cloud-only vs synced users, group types (Security vs M365), RBAC integration.
+- [ ] Roles: Global Admin, User Admin, least privilege principle.
+
+**Visual Learning:**
+- [ ] Diagram: Workflow for creating users and assigning roles.
+- [ ] Table: Security group vs Microsoft 365 group differences.
+
+**Hands-on Labs:**
+- [ ] [Microsoft Learn Lab: Create users and groups](https://learn.microsoft.com/en-us/training/modules/manage-users-groups-azure-active-directory/)
+
+---
+
+#### **Manage user and group properties**
+**Notes:**
+- [ ] Editable properties: Name, UPN, roles, licenses.
+- [ ] Dynamic membership rules for groups.
+
+**Visual Learning:**
+- [ ] Diagram: Dynamic group membership flow.
+
+**Hands-on Labs:**
+- [ ] [Lab: Manage group properties](https://learn.microsoft.com/en-us/training/modules/manage-users-groups-azure-active-directory/)
+
+---
+
+#### **Manage licenses in Microsoft Entra ID**
+**Notes:**
+- [ ] Assign licenses to users or groups.
+- [ ] License inheritance for group-based assignment.
+
+**Visual Learning:**
+- [ ] Table: License assignment options.
+
+**Hands-on Labs:**
+- [ ] [Lab: Assign licenses](https://learn.microsoft.com/en-us/training/modules/manage-users-groups-azure-active-directory/)
+
+---
+
+#### **Manage external users**
+**Notes:**
+- [ ] B2B collaboration, guest accounts, access reviews.
+
+**Visual Learning:**
+- [ ] Diagram: External user invitation workflow.
+
+**Hands-on Labs:**
+- [ ] [Lab: Manage external users](https://learn.microsoft.com/en-us/training/modules/manage-external-identities/)
+
+---
+
+#### **Configure self-service password reset**
+**Notes:**
+- [ ] Enable SSPR, authentication methods, policies.
+
+**Visual Learning:**
+- [ ] Diagram: SSPR flow.
+
+**Hands-on Labs:**
+- [ ] [Lab: Configure SSPR](https://learn.microsoft.com/en-us/training/modules/manage-password-reset/)
+
+---
+
+### 1.2 Manage access to Azure resources
+
+#### **Manage built-in Azure roles**
+**Notes:**
+- [ ] Common roles: Owner, Contributor, Reader.
+- [ ] Custom roles basics.
+
+**Visual Learning:**
+- [ ] Table: Built-in roles comparison.
+
+**Hands-on Labs:**
+- [ ] [Lab: Assign roles](https://learn.microsoft.com/en-us/training/modules/manage-subscriptions-governance/)
+
+---
+
+#### **Assign roles at different scopes**
+**Notes:**
+- [ ] Scope hierarchy: Management group > Subscription > Resource group > Resource.
+
+**Visual Learning:**
+- [ ] Diagram: RBAC scope hierarchy.
+
+**Hands-on Labs:**
+- [ ] [Lab: Assign RBAC roles](https://learn.microsoft.com/en-us/training/modules/manage-subscriptions-governance/)
+
+---
+
+#### **Interpret access assignments**
+**Notes:**
+- [ ] Check effective permissions using Access Control (IAM).
+
+**Visual Learning:**
+- [ ] Screenshot example of IAM blade.
+
+---
+
+### 1.3 Manage Azure subscriptions and governance
+
+#### **Implement and manage Azure Policy**
+**Notes:**
+- [ ] Policy vs Initiative, compliance reporting.
+
+**Visual Learning:**
+- [ ] Diagram: Policy assignment workflow.
+
+**Hands-on Labs:**
+- [ ] [Lab: Implement Azure Policy](https://learn.microsoft.com/en-us/training/modules/implement-azure-policy/)
+
+---
+
+#### **Configure resource locks**
+**Notes:**
+- [ ] Lock types: Read-only vs Delete.
+
+**Visual Learning:**
+- [ ] Table: Lock types and effects.
+
+---
+
+#### **Apply and manage tags on resources**
+**Notes:**
+- [ ] Tagging strategy for cost management.
+
+**Visual Learning:**
+- [ ] Diagram: Tag inheritance.
+
+---
+
+#### **Manage resource groups**
+**Notes:**
+- [ ] Resource group lifecycle, moving resources.
+
+---
+
+#### **Manage subscriptions**
+**Notes:**
+- [ ] Subscription limits, linking to management groups.
+
+---
+
+#### **Manage costs by using alerts, budgets, and Advisor recommendations**
+**Notes:**
+- [ ] Cost analysis, budgets, alerts, Advisor tips.
+
+---
+
+#### **Configure management groups**
+**Notes:**
+- [ ] Hierarchy for governance across subscriptions.
+
+**Visual Learning:**
+- [ ] Diagram: Management group hierarchy.
+
+---
+
+## ✅ How to Use This File
+- Add **summaries** under Notes as you learn.
+- Insert **diagrams/tables** under Visual Learning.
+- Link **labs** under Hands-on Labs for quick access.
