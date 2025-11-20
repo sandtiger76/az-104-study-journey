@@ -115,6 +115,9 @@ flowchart LR
 ---
 
 #### **Manage external users**
+Guest users (or B2B users) are external individuals who are invited to access specific resources, such as Microsoft 365 files or SharePoint sites, within the tenant's environment.
+Guest users use their own credentials from another directory or identity provider to log in.
+They are given restricted, guest-level permissions and can only access the specific resources that have been shared with them.
 
 | **Action**        | **Description**                                                                                     |
 | ------------------ | ------------------------------------------------------------------------------------------------- |
