@@ -169,7 +169,7 @@ flowchart TD
 | **User Access Administrator**| Manage user access to resources (assign RBAC roles).                          |
 | *Backup Operator*         | Perform backup and restore operations.                                         |
 | *Security Reader*         | View security-related information and reports.                                 |
-| **Virtual Machine Contributor**| Manage VMs but cannot manage networking or storage associated with them.     |
+| *Virtual Machine Contributor*| Manage VMs but cannot manage networking or storage associated with them.     |
 
 ```mermaid
 flowchart TD
