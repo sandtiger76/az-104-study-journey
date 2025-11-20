@@ -165,10 +165,10 @@ flowchart TD
 | ---------------------------- | ------------------------------------------------------------------------------- |
 | **Owner**                   | Full access to all resources; can delegate access to others.                   |
 | **Contributor**             | Can create/manage resources but **cannot assign roles or permissions**.        |
-| **Reader**                  | Can view resources but **cannot make changes**.                                |
+| *Reader*                  | Can view resources but **cannot make changes**.                                |
 | **User Access Administrator**| Manage user access to resources (assign RBAC roles).                          |
-| **Backup Operator**         | Perform backup and restore operations.                                         |
-| **Security Reader**         | View security-related information and reports.                                 |
+| *Backup Operator*         | Perform backup and restore operations.                                         |
+| *Security Reader*         | View security-related information and reports.                                 |
 | **Virtual Machine Contributor**| Manage VMs but cannot manage networking or storage associated with them.     |
 
 ```mermaid
