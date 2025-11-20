@@ -5,6 +5,13 @@
 ### 1.1 Manage Microsoft Entra ID users and groups
 
 #### Types of Users
+| **User Type**   | **Description**                                                                                       | **Identity Location**                             | **Access Scope**                               | **Typical Use Cases**                                                |
+| --------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------- |
+| **Cloud Users** | Fully managed in Microsoft Entra ID (Azure AD) as cloud-native accounts                              | Azure AD / Microsoft Entra ID                    | Access resources within the Azure tenant       | Employees or full members of cloud-only organizations                |
+| **Hybrid Users**| Synchronized or federated identities from on-premises Active Directory to Azure AD (hybrid setup)    | On-premises AD + Azure AD                        | Access across on-prem and cloud resources      | Employees in organizations with on-prem AD and Azure integration     |
+| **Guest Users** | External users invited to collaborate, mostly external to the tenant; limited guest-level access     | External identity provider or external tenant     | Limited resource access, guest permissions     | Partners, vendors, contractors accessing selected resources          |
+
+
 ```mermaid
 flowchart TD
     A[User Types] --> B[Cloud User]
@@ -22,11 +29,30 @@ flowchart TD
     D1 --> D2[Authenticates via External Identity Provider]
 ```
 
-| **User Type**   | **Description**                                                                                       | **Identity Location**                             | **Access Scope**                               | **Typical Use Cases**                                                |
-| --------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------- |
-| **Cloud Users** | Fully managed in Microsoft Entra ID (Azure AD) as cloud-native accounts                              | Azure AD / Microsoft Entra ID                    | Access resources within the Azure tenant       | Employees or full members of cloud-only organizations                |
-| **Hybrid Users**| Synchronized or federated identities from on-premises Active Directory to Azure AD (hybrid setup)    | On-premises AD + Azure AD                        | Access across on-prem and cloud resources      | Employees in organizations with on-prem AD and Azure integration     |
-| **Guest Users** | External users invited to collaborate, mostly external to the tenant; limited guest-level access     | External identity provider or external tenant     | Limited resource access, guest permissions     | Partners, vendors, contractors accessing selected resources          |
+#### Methods to create users and groups
+| **Portal/Method**                       | **Main Use Case**                                             |
+| --------------------------------------- | ------------------------------------------------------------- |
+| **Azure Portal**                        | All user/group tasks, access, licensing, directory config     |
+| **Microsoft Entra Admin Center**        | Deep identity, access, authentication, roles management       |
+| **Microsoft 365 Admin Center**          | Basic user/group management for M365 orgs                     |
+| **Azure CLI / PowerShell / CloudShell** | Automation, bulk/batch changes, scripting                     |
+| **Intune Admin Console**                | User/group for device, mobility, endpoint management          |
+
+```mermaid
+flowchart TD
+    A[Ways to Create Users & Groups] --> B[Azure Portal]
+    A --> C[Microsoft Entra Admin Center]
+    A --> D[Microsoft 365 Admin Center]
+    A --> E[Azure CLI / PowerShell / CloudShell]
+    A --> F[Intune Admin Console]
+
+    B --> B1[Full user/group tasks, licensing, directory config]
+    C --> C1[Deep identity & access management]
+    D --> D1[Basic M365 user/group management]
+    E --> E1[Automation & scripting for bulk changes]
+    F --> F1[Device & endpoint management]
+
+
 
 #### **Create users and groups**
 **Notes:**
