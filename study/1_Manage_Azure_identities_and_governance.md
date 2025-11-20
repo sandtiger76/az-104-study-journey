@@ -4,6 +4,24 @@
 
 ### 1.1 Manage Microsoft Entra ID users and groups
 
+#### Types of Users
+```mermaid
+flowchart TD
+    A[User Types] --> B[Cloud User]
+    A --> C[Hybrid User]
+    A --> D[Guest User]
+
+    B --> B1[Created in Microsoft Entra ID]
+    B1 --> B2[Authenticates via Azure AD]
+
+    C --> C1[Identity in On-Prem AD]
+    C1 --> C2[Synchronized to Entra ID]
+    C2 --> C3[Authenticates via Azure AD or Federation]
+
+    D --> D1[Invited from External Tenant]
+    D1 --> D2[Authenticates via External Identity Provider]
+```
+
 | **User Type**   | **Description**                                                                                       | **Identity Location**                             | **Access Scope**                               | **Typical Use Cases**                                                |
 | --------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------- |
 | **Cloud Users** | Fully managed in Microsoft Entra ID (Azure AD) as cloud-native accounts                              | Azure AD / Microsoft Entra ID                    | Access resources within the Azure tenant       | Employees or full members of cloud-only organizations                |
