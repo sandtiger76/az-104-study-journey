@@ -52,7 +52,7 @@ flowchart TD
     D --> D1[Basic M365 user/group management]
     E --> E1[Automation & scripting for bulk changes]
     F --> F1[Device & endpoint management]
-
+```
 
 
 **Create users and groups**
