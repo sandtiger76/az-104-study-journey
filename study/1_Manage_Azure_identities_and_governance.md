@@ -205,7 +205,7 @@ flowchart TD
     E --> E2[Backup Operator]
     E --> E3[Security Reader]
     E --> E4[VM Contributor]
-
+```
 
 
 **Hands-on Labs:**
