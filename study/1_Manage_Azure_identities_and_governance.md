@@ -159,7 +159,6 @@ flowchart TD
 
 #### **Manage built-in Azure roles**
 
-#### Azure Built-in Roles Summary
 
 | **Role**                     | **Description**                                                                 |
 | ---------------------------- | ------------------------------------------------------------------------------- |
