@@ -31,8 +31,6 @@ flowchart TD
 
 **Create users and groups**
 
-#### Methods to create Users and Groups
-
 | **Portal/Method**                       | **Main Use Case**                                             |
 | --------------------------------------- | ------------------------------------------------------------- |
 | **Azure Portal**                        | All user/group tasks, access, licensing, directory config     |
@@ -85,6 +83,31 @@ flowchart TD
 
 #### **Manage licenses in Microsoft Entra ID**
 
+| **Feature**                                             | **Free** | **P1** | **P2** | **Governance** |
+| ------------------------------------------------------- | -------- | ------ | ------ | -------------- |
+| Single Sign-On (unlimited)                              | ✓        | ✓      | ✓      | ✗              |
+| Cloud and Federated authentication                      | ✓        | ✓      | ✓      | ✗              |
+| Advanced group management                               | ✗        | ✓      | ✓      | ✓              |
+| Self-service account management portal                  | ✓        | ✓      | ✓      | ✓              |
+| Multifactor authentication (MFA)                        | ✓        | ✓      | ✓      | ✓              |
+| Conditional access                                      | ✗        | ✓      | ✓      | ✓              |
+| Risk-based Conditional Access (sign-in risk, user risk) | ✗        | ✗      | ✓      | ✓              |
+| Automated user and group provisioning to apps           | ✗        | ✓      | ✓      | ✓              |
+| Privileged identity management (PIM)                    | ✗        | ✗      | ✓      | ✓              |
+
+
+```mermaid
+flowchart LR
+    A[Microsoft Entra ID Features] --> B[Free Tier]
+    A --> C[P1 Tier]
+    A --> D[P2 Tier]
+    A --> E[Governance]
+
+    B --> B1[SSO, Cloud Auth, MFA, Self-service]
+    C --> C1[+ Conditional Access, Advanced Groups, Provisioning]
+    D --> D1[+ Risk-based Conditional Access, PIM]
+    E --> E1[Governance Enhancements]
+```
 
 **Hands-on Labs:**
 - [ ] [Lab: Assign licenses](https://learn.microsoft.com/en-us/training/modules/manage-users-groups-azure-active-directory/)
