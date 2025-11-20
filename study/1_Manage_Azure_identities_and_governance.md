@@ -39,21 +39,6 @@ flowchart TD
 | **Azure CLI / PowerShell / CloudShell** | Automation, bulk/batch changes, scripting                     |
 | **Intune Admin Console**                | User/group for device, mobility, endpoint management          |
 
-```mermaid
-flowchart TD
-    A[Ways to Create Users & Groups] --> B[Azure Portal]
-    A --> C[Microsoft Entra Admin Center]
-    A --> D[Microsoft 365 Admin Center]
-    A --> E[Azure CLI / PowerShell / CloudShell]
-    A --> F[Intune Admin Console]
-
-    B --> B1[Full user/group tasks, licensing, directory config]
-    C --> C1[Deep identity & access management]
-    D --> D1[Basic M365 user/group management]
-    E --> E1[Automation & scripting for bulk changes]
-    F --> F1[Device & endpoint management]
-```
----
 
 ```mermaid
 flowchart TD
