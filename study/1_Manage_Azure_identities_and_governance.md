@@ -53,7 +53,34 @@ flowchart TD
     E --> E1[Automation & scripting for bulk changes]
     F --> F1[Device & endpoint management]
 ```
+---
 
+```mermaid
+flowchart TD
+    A[Ways to Create Users & Groups] --> B[Azure Portal]
+    A --> C[Microsoft Entra Admin Center]
+    A --> D[Microsoft 365 Admin Center]
+    A --> E[Azure CLI / PowerShell / CloudShell]
+    A --> F[Intune Admin Console]
+
+    subgraph GUI-Based
+        B
+        C
+        D
+        F
+    end
+
+    subgraph Automation
+        E
+    end
+
+    B --> B1[Ad-hoc tasks, licensing, directory config]
+    C --> C1[Deep identity & access management]
+    D --> D1[M365-focused user/group tasks]
+    E --> E1[Bulk changes, scripting, automation]
+    F --> F1[Device & endpoint management]
+
+```
 
 **Create users and groups**
 **Notes:**
