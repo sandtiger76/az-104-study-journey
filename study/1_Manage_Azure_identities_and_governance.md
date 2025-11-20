@@ -116,6 +116,28 @@ flowchart LR
 
 #### **Manage external users**
 
+| **Action**        | **Description**                                                                                     |
+| ------------------ | ------------------------------------------------------------------------------------------------- |
+| **Create user**    | Adds a new internal user with a domain-based username (e.g., user@yourdomain.com).               |
+| **Invite user**    | Sends an email invitation to an external user (guest). They must accept to join as a guest.      |
+| **Microsoft Account** | If the invited user’s email isn’t linked to a Microsoft Account, they must create one.        |
+| **Purpose**        | Secure onboarding and collaboration for external users in Azure.                                 |
+
+```mermaid
+flowchart TD
+    A[External User Onboarding] --> B[Invite User]
+    A --> C[Create User]
+
+    B --> B1[Send Invitation Email]
+    B1 --> B2[User Accepts Invite]
+    B2 --> B3[Joins as Guest in Tenant]
+    B3 --> B4[Access Controlled via RBAC & Policies]
+
+    C --> C1[Create Internal User Account]
+    C1 --> C2[Assign Domain-based Username]
+    C2 --> C3[Full Member Access]
+```
+
 
 **Hands-on Labs:**
 - [ ] [Lab: Manage external users](https://learn.microsoft.com/en-us/training/modules/manage-external-identities/)
