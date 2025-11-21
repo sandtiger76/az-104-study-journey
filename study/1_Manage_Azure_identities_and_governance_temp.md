@@ -2,10 +2,72 @@
 
 ### Create users and groups
 
-The first thing we want to learn about is creating users and groups.
-The three different types of users are: cloud, hybrid, and guest.
-You need to know what they are, when you would use them, and all of that.
-Be aware of the Entra portal: entra.microsoft.com. Get to know that one as well.
+| **User Type**   | **Description**                                                                                       | **Identity Location**                             | **Access Scope**                               | **Typical Use Cases**                                                |
+| --------------- | ----------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ---------------------------------------------- | --------------------------------------------------------------------- |
+| **Cloud Users** | Fully managed in Microsoft Entra ID (Azure AD) as cloud-native accounts                              | Azure AD / Microsoft Entra ID                    | Access resources within the Azure tenant       | Employees or full members of cloud-only organizations                |
+| **Hybrid Users**| Synchronized or federated identities from on-premises Active Directory to Azure AD (hybrid setup)    | On-premises AD + Azure AD                        | Access across on-prem and cloud resources      | Employees in organizations with on-prem AD and Azure integration     |
+| **Guest Users** | External users invited to collaborate, mostly external to the tenant; limited guest-level access     | External identity provider or external tenant     | Limited resource access, guest permissions     | Partners, vendors, contractors accessing selected resources          |
+
+
+```mermaid
+flowchart TD
+    A[User Types] --> B[Cloud User]
+    A --> C[Hybrid User]
+    A --> D[Guest User]
+
+    B --> B1[Created in Microsoft Entra ID]
+    B1 --> B2[Authenticates via Azure AD]
+
+    C --> C1[Identity in On-Prem AD]
+    C1 --> C2[Synchronized to Entra ID]
+    C2 --> C3[Authenticates via Azure AD or Federation]
+
+    D --> D1[Invited from External Tenant]
+    D1 --> D2[Authenticates via External Identity Provider]
+```
+
+**Create users and groups**
+
+| **Portal/Method**                       | **Main Use Case**                                             |
+| --------------------------------------- | ------------------------------------------------------------- |
+| **Azure Portal**                        | All user/group tasks, access, licensing, directory config     |
+| **Microsoft Entra Admin Center**        | Deep identity, access, authentication, roles management       |
+| **Microsoft 365 Admin Center**          | Basic user/group management for M365 orgs                     |
+| **Azure CLI / PowerShell / CloudShell** | Automation, bulk/batch changes, scripting                     |
+| **Intune Admin Console**                | User/group for device, mobility, endpoint management          |
+
+
+```mermaid
+flowchart TD
+    A[Ways to Create Users & Groups] --> B[Azure Portal]
+    A --> C[Microsoft Entra Admin Center]
+    A --> D[Microsoft 365 Admin Center]
+    A --> E[Azure CLI / PowerShell / CloudShell]
+    A --> F[Intune Admin Console]
+
+    subgraph GUI-Based
+        B
+        C
+        D
+        F
+    end
+
+    subgraph Automation
+        E
+    end
+
+    B --> B1[Ad-hoc tasks, licensing, directory config]
+    C --> C1[Deep identity & access management]
+    D --> D1[M365-focused user/group tasks]
+    E --> E1[Bulk changes, scripting, automation]
+    F --> F1[Device & endpoint management]
+
+```
+
+
+The first thing we want to learn about is creating users and groups. \
+The three different types of users are: cloud, hybrid, and guest. You need to know what they are, when you would use them, and all of that. \
+Be aware of the Entra portal: entra.microsoft.com. Get to know that one as well. 
 
 ### Manage user and group properties
 
