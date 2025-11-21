@@ -114,6 +114,32 @@ Example 2: Self-service password reset means you need a P1 license.</em>
 
 ### Manage external users
 
+Guest users (or B2B users) are external individuals who are invited to access specific resources, such as Microsoft 365 files or SharePoint sites, within the tenant's environment.
+Guest users use their own credentials from another directory or identity provider to log in.
+They are given restricted, guest-level permissions and can only access the specific resources that have been shared with them.
+
+| **Action**        | **Description**                                                                                     |
+| ------------------ | ------------------------------------------------------------------------------------------------- |
+| **Create user**    | Adds a new internal user with a domain-based username (e.g., user@yourdomain.com).               |
+| **Invite user**    | Sends an email invitation to an external user (guest). They must accept to join as a guest.      |
+| **Microsoft Account** | If the invited user’s email isn’t linked to a Microsoft Account, they must create one.        |
+| **Purpose**        | Secure onboarding and collaboration for external users in Azure.                                 |
+
+```mermaid
+flowchart TD
+    A[External User Onboarding] --> B[Invite User]
+    A --> C[Create User]
+
+    B --> B1[Send Invitation Email]
+    B1 --> B2[User Accepts Invite]
+    B2 --> B3[Joins as Guest in Tenant]
+    B3 --> B4[Access Controlled via RBAC & Policies]
+
+    C --> C1[Create Internal User Account]
+    C1 --> C2[Assign Domain-based Username]
+    C2 --> C3[Full Member Access]
+```
+
 #### <em>What to know for this section
 
 Know external users. When you invite a guest, what happens with that guest account?
