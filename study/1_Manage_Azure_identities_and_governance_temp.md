@@ -68,7 +68,7 @@ flowchart TD
 
 The three different types of users are: cloud, hybrid, and guest. \
 You need to know what they are, and when you would use them. \
-Know the different portals including https://portal.azure.com/ &  https://entra.microsoft.com
+Know the different portals including https://portal.azure.com & https://entra.microsoft.com (formerly Azure AD portal)
 
 
 ### Manage user and group properties
