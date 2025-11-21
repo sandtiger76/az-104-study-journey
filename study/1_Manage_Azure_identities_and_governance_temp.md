@@ -142,24 +142,28 @@ flowchart TD
 
 #### <em>What to know for this section
 
-Know external users. \
+* Know external users. 
 
-When you invite a guest, what happens with that guest account? \
+* When you invite a guest, what happens with that guest account? \
 The guest receives an email with a link to accept the invitation. \
 After acceptance, they can access resources based on assigned permissions.
 
-How do you invite a guest? \
+* How do you invite a guest? \
 1.\ Azure Portal (Go to Microsoft Entra ID → Users → New guest user)
 
-2:\ PowerShell (PowerShellConnect-AzureADNew-AzureADMSInvitation -InvitedUserEmailAddress "guest@example.com" `  -InviteRedirectUrl "https://myapps.microsoft.com" `  -SendInvitationMessage $trueShow more lines)
+2:\ PowerShell 
+```
+PowerShellConnect-AzureADNew-AzureADMSInvitation -InvitedUserEmailAddress "guest@example.com" `  -InviteRedirectUrl "https://myapps.microsoft.com" `  -SendInvitationMessage $trueShow more lines
+```
 
 3:\ Microsoft Graph API (Use POST /invitations endpoint for automation.)
 
-What is considered a guest? \
-Anybody that’s not part of your tenant is a guest. \
+* What is considered a guest? \
+Anybody that’s not part of your tenant is a guest. 
 
-You’ll see questions where they might ask you about giving a customer access—know that you invite them. \
-Once you invite those guests, how do you manage them?</em>
+* You’ll see questions where they might ask you about giving a customer access—know that you invite them. \
+
+* Once you invite those guests, how do you manage them?</em>
 
 ### Configure self-service password reset
 
