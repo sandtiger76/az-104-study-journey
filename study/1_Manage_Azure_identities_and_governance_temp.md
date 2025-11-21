@@ -148,7 +148,7 @@ flowchart TD
 The guest receives an email with a link to accept the invitation. \
 After acceptance, they can access resources based on assigned permissions.
 
-* How do you invite a guest? \
+* How do you invite a guest? 
     + Azure Portal (Go to Microsoft Entra ID → Users → New guest user)
 
     + PowerShell 
