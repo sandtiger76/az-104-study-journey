@@ -56,6 +56,8 @@ Interpret access management.
 Know the difference between Entra roles (administrator-type roles) and Azure roles (resource-type roles).
 Be aware of scoping for both.
 
+[Lab 02a: Manage Subscriptions and RBAC](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entra.md) 
+
 
 ## 1.3 Manage Azure subscriptions and governance
 
@@ -104,3 +106,5 @@ You might get questions about creating a budget—part of cost management.
 Management groups are for managing multiple subscriptions.
 Great for security and policy capability.
 Would you use a management group for one subscription? No.
+
+[Lab 02b: Manage Governance via Azure Policy](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02b-
