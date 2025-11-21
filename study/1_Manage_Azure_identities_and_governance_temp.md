@@ -26,13 +26,12 @@ Anybody that’s not part of your tenant is a guest.
 You’ll see questions where they might ask you about giving a customer access—know that you invite them.
 Once you invite those guests, how do you manage them?
 
-[### Lab 01: Manage Microsoft Entra ID Identities](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identities.md)
-
 ### Configure self-service password reset
 
 Finally, be aware of the self-service password reset.
 Requires a P1 license (not P2—hint, trick question).
 
+#### [Lab 01: Manage Microsoft Entra ID Identities](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identities.md)
 
 ## 1.2 Manage access to Azure resources
 
