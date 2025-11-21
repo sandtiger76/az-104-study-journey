@@ -149,14 +149,14 @@ The guest receives an email with a link to accept the invitation. \
 After acceptance, they can access resources based on assigned permissions.
 
 * How do you invite a guest? \
-- Azure Portal (Go to Microsoft Entra ID → Users → New guest user)
+    + Azure Portal (Go to Microsoft Entra ID → Users → New guest user)
 
-- PowerShell 
-```
-PowerShellConnect-AzureADNew-AzureADMSInvitation -InvitedUserEmailAddress "guest@example.com" `  -InviteRedirectUrl "https://myapps.microsoft.com" `  -SendInvitationMessage $trueShow more lines
-```
+    + PowerShell 
+    ```
+    PowerShellConnect-AzureADNew-AzureADMSInvitation -InvitedUserEmailAddress "guest@example.com" `  -InviteRedirectUrl "https://myapps.microsoft.com" `  -SendInvitationMessage $trueShow more lines
+    ```
 
-- Microsoft Graph API (Use POST /invitations endpoint for automation.)
+    + Microsoft Graph API (Use POST /invitations endpoint for automation.)
 
 * What is considered a guest? \
 Anybody that’s not part of your tenant is a guest. 
