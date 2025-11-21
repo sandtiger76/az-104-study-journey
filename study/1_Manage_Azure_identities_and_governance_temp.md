@@ -64,10 +64,11 @@ flowchart TD
 
 ```
 
+##### What to know for this section
 
-The first thing we want to learn about is creating users and groups. \
-The three different types of users are: cloud, hybrid, and guest. You need to know what they are, when you would use them, and all of that. \
-Be aware of the Entra portal: entra.microsoft.com. Get to know that one as well. 
+The three different types of users are: cloud, hybrid, and guest. You need to know what they are, and when you would use them. \
+Know the different portals including https://portal.azure.com/ &  https://entra.microsoft.com
+
 
 ### Manage user and group properties
 
