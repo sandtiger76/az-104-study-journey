@@ -107,4 +107,4 @@ Management groups are for managing multiple subscriptions.
 Great for security and policy capability.
 Would you use a management group for one subscription? No.
 
-[Lab 02b: Manage Governance via Azure Policy](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02b-
+[Lab 02b: Manage Governance via Azure Policy](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02b-Manage_Governance_via_Azure_Policy.md)
