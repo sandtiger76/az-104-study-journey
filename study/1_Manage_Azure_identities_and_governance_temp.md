@@ -78,6 +78,35 @@ Be aware of your manage and user group properties.
 
 ### Manage licenses in Microsoft Entra ID
 
+
+| **Feature**                                             | **Free** | **P1** | **P2** | **Governance** |
+| ------------------------------------------------------- | -------- | ------ | ------ | -------------- |
+| Single Sign-On (unlimited)                              | ✓        | ✓      | ✓      | ✗              |
+| Cloud and Federated authentication                      | ✓        | ✓      | ✓      | ✗              |
+| Advanced group management                               | ✗        | ✓      | ✓      | ✓              |
+| Self-service account management portal                  | ✓        | ✓      | ✓      | ✓              |
+| Multifactor authentication (MFA)                        | ✓        | ✓      | ✓      | ✓              |
+| Conditional access                                      | ✗        | ✓      | ✓      | ✓              |
+| Risk-based Conditional Access (sign-in risk, user risk) | ✗        | ✗      | ✓      | ✓              |
+| Automated user and group provisioning to apps           | ✗        | ✓      | ✓      | ✓              |
+| Privileged identity management (PIM)                    | ✗        | ✗      | ✓      | ✓              |
+
+
+```mermaid
+flowchart LR
+    A[Microsoft Entra ID Features] --> B[Free Tier]
+    A --> C[P1 Tier]
+    A --> D[P2 Tier]
+    A --> E[Governance]
+
+    B --> B1[SSO, Cloud Auth, MFA, Self-service]
+    C --> C1[+ Conditional Access, Advanced Groups, Provisioning]
+    D --> D1[+ Risk-based Conditional Access, PIM]
+    E --> E1[Governance Enhancements]
+```
+
+##### What to know for this section
+
 Entra has licenses. Know the difference between these licenses.
 When we think about PIM and identity protection, that means you’ll need a P2 license.
 Self-service password reset means you need a P1 license.
