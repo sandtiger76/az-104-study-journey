@@ -107,9 +107,12 @@ flowchart LR
 
 #### <em>What to know for this section
 
-Entra has different licenses, know the difference between these licenses. \
-Example: Privileged Identity Management (PIM) is a service in Microsoft Entra ID that enables you to manage, control, and monitor access to important resources in your organization. \
-When we think about PIM and identity protection, that means you’ll need a P2 license. \
+Entra has different licenses, know the difference between these licenses. 
+
+Example: Privileged Identity Management (PIM) is a service in Microsoft Entra ID that enables you to manage, control, and monitor access to important resources in your organization. 
+
+When we think about PIM and identity protection, that means you’ll need a P2 license. 
+
 Example 2: Self-service password reset means you need a P1 license.</em>
 
 ### Manage external users
