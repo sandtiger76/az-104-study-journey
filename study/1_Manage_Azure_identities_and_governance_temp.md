@@ -114,16 +114,20 @@ Example 2: Self-service password reset means you need a P1 license.</em>
 
 ### Manage external users
 
+#### <em>What to know for this section
+
 Know external users. When you invite a guest, what happens with that guest account?
 How do you invite a guest? What is considered a guest?
 Anybody that’s not part of your tenant is a guest.
 You’ll see questions where they might ask you about giving a customer access—know that you invite them.
-Once you invite those guests, how do you manage them?
+Once you invite those guests, how do you manage them?</em>
 
 ### Configure self-service password reset
 
+#### <em>What to know for this section
+
 Finally, be aware of the self-service password reset.
-Requires a P1 license (not P2—hint, trick question).
+Requires a P1 license (not P2—hint, trick question).</em>
 
 [Lab 01: Manage Microsoft Entra ID Identities](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identities.md)
 
@@ -131,24 +135,30 @@ Requires a P1 license (not P2—hint, trick question).
 
 ### Manage built-in Azure roles
 
+#### <em>What to know for this section
+
 Know the built-in roles: User Access Administrator, Contributor, and Owner.
 These are the three roles you’ll see on the exam.
 Understand scenarios: if Bob needs to create something, does he need Owner or Contributor?
 If he needs to delete or give someone else access, know the differences.
-Be aware that there are custom roles you can create using JSON templates.
+Be aware that there are custom roles you can create using JSON templates.</em>
 
 ### Assign roles at different scopes
+
+#### <em>What to know for this section
 
 One of the big ones: scoping. Also called hierarchy.
 Know at what levels you can scope permissions: management group, subscription, resource group, or role.
 Scoping applies to permissions and policies.
-All scopes are inheritable, and you cannot break inheritance.
+All scopes are inheritable, and you cannot break inheritance.</em>
 
 ### Interpret access assignments
 
+#### <em>What to know for this section
+
 Interpret access management.
 Know the difference between Entra roles (administrator-type roles) and Azure roles (resource-type roles).
-Be aware of scoping for both.
+Be aware of scoping for both.</em>
 
 [Lab 02a: Manage Subscriptions and RBAC](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02a_Manage_Subscriptions_and_RBAC_Entra.md) 
 
@@ -157,6 +167,8 @@ Be aware of scoping for both.
 
 ### Implement and manage Azure Policy
 
+#### <em>What to know for this section
+
 Policies are about scoping.
 Know the difference between a policy and an initiative definition:
 
@@ -164,41 +176,53 @@ Policy = single
 Initiative definition = grouping of policies
 
 
-These show up in governance and compliance questions.
+These show up in governance and compliance questions.</em>
 
 ### Configure resource locks
 
+#### <em>What to know for this section
+
 Two resource locks: Delete and ReadOnly.
-Know what happens with each.
+Know what happens with each.</em>
 
 ### Apply and manage tags on resources
 
+#### <em>What to know for this section
+
 Be aware of tagging.
-Tagging is critical for organization and metadata.
+Tagging is critical for organization and metadata.</em>
 
 ### Manage resource groups
+
+#### <em>What to know for this section
 
 Resource groups are like containers.
 They cannot be nested—Azure has a flat structure.
 All resources must be part of a resource group.
 You can move resources between resource groups.
-Resource groups can span multiple regions.
+Resource groups can span multiple regions.</em>
 
 ### Manage subscriptions
 
+#### <em>What to know for this section
+
 Subscriptions are your billing capability.
 Know the different types of subscriptions and when to use them.
-Without a subscription, you cannot build a resource.
+Without a subscription, you cannot build a resource.</em>
 
 ### Manage costs by using alerts, budgets, and Advisor recommendations
 
+#### <em>What to know for this section
+
 Understand cost optimization tools.
-You might get questions about creating a budget—part of cost management.
+You might get questions about creating a budget—part of cost management.</em>
 
 ### Configure management groups
 
+#### <em>What to know for this section
+
 Management groups are for managing multiple subscriptions.
 Great for security and policy capability.
-Would you use a management group for one subscription? No.
+Would you use a management group for one subscription? No.</em>
 
 [Lab 02b: Manage Governance via Azure Policy](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_02b-Manage_Governance_via_Azure_Policy.md)
