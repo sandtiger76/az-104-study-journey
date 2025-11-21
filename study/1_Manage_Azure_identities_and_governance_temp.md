@@ -66,9 +66,9 @@ flowchart TD
 
 ##### What to know for this section
 
-The three different types of users are: cloud, hybrid, and guest. \
+<em>The three different types of users are: cloud, hybrid, and guest. \
 You need to know what they are, and when you would use them. \
-Know the different portals including https://portal.azure.com & https://entra.microsoft.com (formerly Azure AD portal)
+Know the different portals including https://portal.azure.com & https://entra.microsoft.com (formerly Azure AD portal)<em>
 
 
 ### Manage user and group properties
@@ -109,7 +109,7 @@ flowchart LR
 
 <em>Entra has different licenses, know the difference between these licenses. \
 Example: Privileged Identity Management (PIM) is a service in Microsoft Entra ID that enables you to manage, control, and monitor access to important resources in your organization. \
-When we think about PIM and identity protection, that means you’ll need a P2 license. \
+When we think about PIM and identity protection, that means you’ll need a P2 license. 
 Example 2: Self-service password reset means you need a P1 license.<em>
 
 ### Manage external users
