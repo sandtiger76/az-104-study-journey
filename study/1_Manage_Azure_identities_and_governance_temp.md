@@ -31,7 +31,7 @@ Once you invite those guests, how do you manage them?
 Finally, be aware of the self-service password reset.
 Requires a P1 license (not P2—hint, trick question).
 
-#### [Lab 01: Manage Microsoft Entra ID Identities](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identities.md)
+[Lab 01: Manage Microsoft Entra ID Identities](https://github.com/sandtiger76/az-104-study-journey/blob/main/labs/Instructions/Labs/LAB_01-Manage_Entra_ID_Identities.md)
 
 ## 1.2 Manage access to Azure resources
 
