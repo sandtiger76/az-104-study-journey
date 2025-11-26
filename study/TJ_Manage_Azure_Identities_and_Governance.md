@@ -14,7 +14,7 @@ Grant permissions via RBAC.
 
 ```mermaid
 flowchart TD
-    A[TD-VM1 🐬 <br/> Enable Managed Identity] --> B["Assign RBAC Role <br/> (Contributor")]
+    A[TD-VM1 🐬 <br/> Enable Managed Identity] --> B["Assign RBAC Role <br/> (Contributor)"]
     B --> C[TD-RG1 🌊 <br/> Resource Group]
 ```
 
