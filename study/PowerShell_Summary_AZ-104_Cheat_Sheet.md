@@ -1,7 +1,7 @@
 
 # ✅ PowerShell Summary & AZ-104 Cheat Sheet
 
-### **Section 1: What is PowerShell?**
+## **Section 1: What is PowerShell?**
 PowerShell is a **cross-platform automation and configuration tool** developed by Microsoft.  
 It uses a **command-line shell** and a **scripting language** built on .NET, designed for:
 - Automating administrative tasks
@@ -10,7 +10,7 @@ It uses a **command-line shell** and a **scripting language** built on .NET, des
 
 ---
 
-### **Section 2: How to Use PowerShell on Linux**
+### How to Use PowerShell on Linux**
 1. **Install PowerShell Core (`pwsh`)**:
    - On Ubuntu/Debian:
      ```bash
@@ -30,7 +30,7 @@ It uses a **command-line shell** and a **scripting language** built on .NET, des
    ```bash
    pwsh
     ```
-## Key Learnings from the Two Questions
+## Key Learnings from AZ-104
 
 ### 1. Locate a Command in PowerShell
 
@@ -87,3 +87,10 @@ PowerShell is powerful for automation and works on Linux via pwsh.
 Use Get-Command to locate commands and filter by -Noun or -Verb for specific tasks.   
 
 
+## Commonly Used Azure PowerShell Commands:
+Authentication and Context.
+```
+ Connect-AzAccount # Connects to your Azure account
+ Get-AzContext # Gets the current Azure context
+ Set-AzContext # Sets the current Azure context (e.g., subscription)
+```
