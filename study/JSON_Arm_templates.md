@@ -1,7 +1,7 @@
 # JSON Arm templates
 
 ## What is JSON?
-JSON, or **JavaScript Object Notation**, is a lightweight data-interchange format that uses human-readable text to transmit data objects. It is language-independent and a popular choice for transferring data between a server and a web application, as well as for configuration files and APIs. JSON's format is based on a subset of the JavaScript programming language and is easy for both humans to read and machines to parse. 
+JSON **(JavaScript Object Notation)** is a lightweight data-interchange format that uses human-readable text to transmit data objects. It is language-independent and a popular choice for transferring data between a server and a web application, as well as for configuration files and APIs. JSON's format is based on a subset of the JavaScript programming language and is easy for both humans to read and machines to parse. 
 
 ### Example:
 ```
