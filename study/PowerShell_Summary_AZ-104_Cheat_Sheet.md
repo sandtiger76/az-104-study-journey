@@ -94,7 +94,7 @@ Use Get-Command to locate commands and filter by -Noun or -Verb for specific tas
 | Connect-AzAccount | Connects to your Azure account |
 | Get-AzContext | Gets the current Azure context |
 | Set-AzContext | Sets the current Azure context (e.g., subscription) |
-| **Resource Group Management Command.** | **Explanation** |
+| **Resource Group Management Command.** | * |
 | Get-AzResourceGroup | Lists all resource groups |
 | New-AzResourceGroup | Creates a new resource group |
 | Remove-AzResourceGroup | Deletes a resource group |
