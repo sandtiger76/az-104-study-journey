@@ -40,13 +40,11 @@ Why?
 Get-Command finds cmdlets, functions, scripts, and executables available in your session.
 
 **Examples:**
-   ```bash
+```bash
 Get-Command Get*
-
 Get-Command -Module Az*
-
 Get-Command -Noun File*
-     ```
+```
 
 
 2. Search for Commands Related to Files
