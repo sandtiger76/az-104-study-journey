@@ -2,7 +2,7 @@
 
 ### “Identity First, Access Next.”
 
-Identity First → Enable Managed Identity on the resource (VM, Function, etc.).
+Identity First → Enable Managed Identity on the resource (VM, Function, etc.). \
 Access Next → Assign RBAC role to that identity on the target resource (Resource Group, Storage, etc.).
 
 If you see a question about a resource needing to manage other resources:
