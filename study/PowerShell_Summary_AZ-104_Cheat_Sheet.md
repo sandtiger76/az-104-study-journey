@@ -29,7 +29,7 @@ It uses a **command-line shell** and a **scripting language** built on .NET, des
 2. **Run PowerShell**:
    ```bash
    pwsh
-
+    ```
 ## Key Learnings from the Two Questions
 1. Locate a Command in PowerShell
 
@@ -38,6 +38,15 @@ PowerShellGet-Command 'name of command'Show more lines
 
 Why?
 Get-Command finds cmdlets, functions, scripts, and executables available in your session.
+
+**Examples:**
+     ```
+Get-Command Get*
+     ```
+    
+    ```
+    Get-Command -Module Az*
+    ```   
 
 
 2. Search for Commands Related to Files
