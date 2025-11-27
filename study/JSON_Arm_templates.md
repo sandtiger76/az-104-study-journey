@@ -21,5 +21,4 @@ Azure Resource Manager (ARM) templates are JSON (JavaScript Object Notation) fil
 This means that if you run a template with no changes a second time.
 Azure Resource Manager doesn't make any changes to the deployed resources.
 
-#### Key Point: 
 **Idempotency** ensures repeated deployments don’t duplicate or delete resources—they maintain the desired state.
