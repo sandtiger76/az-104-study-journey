@@ -14,3 +14,13 @@ JSON **(JavaScript Object Notation)** is a lightweight data-interchange format t
 
 ## What are JSON arm templates?
 Azure Resource Manager (ARM) templates are JSON (JavaScript Object Notation) files used to define the infrastructure and configuration for Azure deployments. They enable an infrastructure-as-code approach, allowing organizations to repeatedly and reliably deploy Azure resources across different environments.
+
+#### Key Point: 
+ARM templates are **declarative** JSON files used to define and deploy Azure resources.
+
+Azure Resource Manager templates are **idempotent**. 
+This means that if you run a template with no changes a second time.
+Azure Resource Manager doesn't make any changes to the deployed resources.
+
+#### Key Point: 
+**Idempotency** ensures repeated deployments don’t duplicate or delete resources—they maintain the desired state.
