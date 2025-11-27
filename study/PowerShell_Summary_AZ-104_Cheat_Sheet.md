@@ -59,12 +59,26 @@ PowerShell cmdlets follow Verb-Noun naming. Using -Noun File* matches all comman
 
 **Pro Tips**
 
-Use Get-Help <cmdlet> for detailed info about any command.
+Use Get-Help <cmdlet> 
+Example:
+```
+Get-Help Get-Process
+```
 
-Combine filters:
-PowerShellGet-Command -Verb Get -Noun File*Show more lines
+For full details, use:
+```
+Get-Help Get-Process -Full
+```
 
-This finds commands that get something related to files.
+Or for examples only:
+```
+Get-Help Get-Process -Examples
+```
+
+Combine filters with Get-Command
+```
+Get-Command -Verb Get -Noun File*
+```
 
 
 ✅ In short:
