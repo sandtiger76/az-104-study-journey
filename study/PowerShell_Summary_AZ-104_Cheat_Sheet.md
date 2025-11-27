@@ -31,7 +31,8 @@ It uses a **command-line shell** and a **scripting language** built on .NET, des
    pwsh
     ```
 ## Key Learnings from the Two Questions
-1. Locate a Command in PowerShell
+
+### 1. Locate a Command in PowerShell
 
 ✅ Correct:
 PowerShellGet-Command 'name of command'Show more lines
@@ -47,7 +48,7 @@ Get-Command -Noun File*
 ```
 
 
-2. Search for Commands Related to Files
+### 2. Search for Commands Related to Files
 
 ✅ Correct:
 PowerShellGet-Command -Noun File*Show more lines
@@ -56,11 +57,13 @@ Why?
 PowerShell cmdlets follow Verb-Noun naming. Using -Noun File* matches all commands with nouns starting with "File" (e.g., File, FileSystem).
 
 
-Pro Tips
+**Pro Tips**
 
 Use Get-Help <cmdlet> for detailed info about any command.
+
 Combine filters:
 PowerShellGet-Command -Verb Get -Noun File*Show more lines
+
 This finds commands that get something related to files.
 
 
