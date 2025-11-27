@@ -88,9 +88,32 @@ Use Get-Command to locate commands and filter by -Noun or -Verb for specific tas
 
 
 ## Commonly Used Azure PowerShell Commands:
-Authentication and Context.
-```
- Connect-AzAccount # Connects to your Azure account
- Get-AzContext # Gets the current Azure context
- Set-AzContext # Sets the current Azure context (e.g., subscription)
-```
+
+| **Authentication and Context Command.** | **Explanation** |
+|---------|------------------|
+| Connect-AzAccount | Connects to your Azure account |
+| Get-AzContext | Gets the current Azure context |
+| Set-AzContext | Sets the current Azure context (e.g., subscription) |
+| **Resource Group Management Command.** | **Explanation** |
+| Get-AzResourceGroup | Lists all resource groups |
+| New-AzResourceGroup | Creates a new resource group |
+| Remove-AzResourceGroup | Deletes a resource group |
+| **Virtual Machine Management Command.** | **Explanation** |
+| Get-AzVM | Lists all virtual machines |
+| Start-AzVM | Starts a virtual machine |
+| Stop-AzVM | Stops a virtual machine |
+| Restart-AzVM | Restarts a virtual machine |
+| Remove-AzVM | Deletes a virtual machine |
+| New-AzVM | Creates a new virtual machine |
+| **Storage Account Management Command.** | **Explanation** |
+| Get-AzStorageAccount | Lists all storage accounts |
+| New-AzStorageAccount | Creates a new storage account |
+| Remove-AzStorageAccount | Deletes a storage account |
+| **Network Management Command.** | **Explanation** |
+| Get-AzVirtualNetwork | Lists virtual networks |
+| Get-AzPublicIpAddress | Lists public IP addresses |
+| Get-AzNetworkInterface | Lists network interfaces |
+| **General Information and Help Command.** | **Explanation** |
+| Get-AzResource | Lists all Azure resources |
+| Get-Command -Module Az.* | Lists commands within Azure modules |
+| Get-Help <CmdletName> | Provides help for a specific cmdlet |
