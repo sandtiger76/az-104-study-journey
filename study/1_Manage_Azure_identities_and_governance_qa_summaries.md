@@ -1,4 +1,4 @@
-## 1.1 Manage Microsoft Entra ID users and groups
+# Manage Microsoft Entra ID users and groups QA Summaries
 
 ### Understand Microsoft Entra ID
 
@@ -32,3 +32,6 @@
 | Entra ID P2 | P1 + Identity Protection + PIM. |
 | AD DS | Kerberos, GPOs, on-premises only. |
 | Entra ID | OAuth/OpenID Connect, service principals, cloud-native. |
+
+## Create, configure, and manage identities
+
