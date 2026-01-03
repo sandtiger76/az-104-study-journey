@@ -128,6 +128,25 @@ Think of Managed Identity like a company badge:
 - Azure AD is the security desk.
 - The badge (Managed Identity) lets the VM walk into other secure rooms (Storage, Key Vault) without needing to remember a password.
   
+**How to enable system‑assigned managed identity on your VM TD‑VM1**
+
+1. Go to your VM
+- In the left menu, click Virtual machines.
+- Select TD‑VM1.
+
+2. Open Identity settings
+- In the VM blade, scroll down the left‑hand menu.
+- Click Identity (under Settings).
+
+3. Enable System‑assigned identity
+- Under System assigned, switch Status to On.
+- Click Save at the top.
+
+4. Result
+- Azure automatically creates a service principal in Microsoft Entra ID tied to TD‑VM1.
+- You’ll see the Object ID appear once it’s enabled.
+
+
 ### Question 2:
 Which Azure resources can you move between subscriptions?
 
